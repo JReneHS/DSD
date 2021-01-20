@@ -1,0 +1,85 @@
+----------------------------------------------------------------------
+Report for cell top_bcd.seg
+
+Register bits: 29 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15       100.0
+                            FD1S3DX       29       100.0
+                                GSR        1       100.0
+                                 IB        1       100.0
+                                 OB       11       100.0
+                           ORCALUT4       65       100.0
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        6       100.0
+SUB MODULES 
+                            clk_div        1       100.0
+                               conv        1       100.0
+                               deco        1       100.0
+                        multiplexor        1       100.0
+                              osc00        1       100.0
+                                seg        1       100.0
+                            
+                         TOTAL           139           
+----------------------------------------------------------------------
+Report for cell deco.netlist
+     Instance path:  cto6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        3         4.6
+                                VLO        1        16.7
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell seg.netlist
+     Instance path:  cto5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        7        10.8
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell multiplexor.netlist
+     Instance path:  cto4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       10        15.4
+                              PFUMX        1       100.0
+                                VLO        1        16.7
+                            
+                         TOTAL            12           
+----------------------------------------------------------------------
+Report for cell conv.netlist
+     Instance path:  cto3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       41        63.1
+                                VLO        1        16.7
+                            
+                         TOTAL            42           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  cto2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        16.7
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell clk_div.netlist
+     Instance path:  cto1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15       100.0
+                            FD1S3DX       29       100.0
+                           ORCALUT4        4         6.2
+                                VHI        1        50.0
+                                VLO        1        16.7
+                            
+                         TOTAL            50           

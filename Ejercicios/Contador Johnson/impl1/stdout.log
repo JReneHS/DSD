@@ -1,0 +1,34 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    DESKTOP-VE269NP
+Date:        Thu Nov  5 16:52:03 2020
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch cont_johnson_impl1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\Semestre 2-2020\DSD\Ejercicios\Contador Johnson\impl1\cont_johnson_impl1.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "D:\Semestre 2-2020\DSD\Ejercicios\Contador Johnson\impl1\syntax.log"
+# Thu Nov  5 16:52:07 2020
+
+Return Code: 2
+Run Time:00h:00m:02s
+Error: At line 61 while processing "cont_johnson_impl1_synplify.tcl"
+2
+TCL script complete: "cont_johnson_impl1_synplify.tcl"
+TCL script had errors: "cont_johnson_impl1_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+D:\Semestre 2-2020\DSD\Ejercicios\Contador Johnson\impl1\proj_1.prj
+batch mode default:no

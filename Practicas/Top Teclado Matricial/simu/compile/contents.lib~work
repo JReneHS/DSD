@@ -1,0 +1,19 @@
+9
+~E 1 "./../../clock_div.vhd" 7 clk_div
+~A 1 "./../../clock_div.vhd" 14 divisor
+~E 1 "./../../cont_16.vhd" 4 cont
+~A 1 "./../../cont_16.vhd" 11 sinc_fun
+~E 1 "./../../debounce.vhd" 4 deb
+~A 1 "./../../debounce.vhd" 11 noreb
+~E 1 "./../../decoder_1_4.vhd" 3 decoder
+~A 1 "./../../decoder_1_4.vhd" 10 dec
+~E 1 "./../../mux_4_1.vhd" 3 multi
+~A 1 "./../../mux_4_1.vhd" 11 mux
+~E 1 "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd" 7 osc00
+~A 1 "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd" 13 osc0
+~E 1 "./../../reg_4b.vhd" 4 reg
+~A 1 "./../../reg_4b.vhd" 12 registro
+~E 1 "./../../../Top BCD to 7Seg/dec_7_seg.vhd" 6 seg
+~A 1 "./../../../Top BCD to 7Seg/dec_7_seg.vhd" 13 dec
+~E 1 "./../../Top_Teclado.vhd" 4 top
+~A 1 "./../../Top_Teclado.vhd" 13 tec

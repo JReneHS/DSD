@@ -1,0 +1,11 @@
+5
+~E 1 "./../../clock_div_28.vhd" 7 clk_div
+~A 1 "./../../clock_div_28.vhd" 15 divisor
+~E 1 "./../../bin_bcd.vhd" 5 conv
+~A 1 "./../../bin_bcd.vhd" 12 bin_bcd
+~E 1 "./../../mux11_3.vhd" 5 multiplexor
+~A 1 "./../../mux11_3.vhd" 13 mux
+~E 1 "./../../../Oscilador/oscilador_ejemplo.vhd" 7 osc00
+~A 1 "./../../../Oscilador/oscilador_ejemplo.vhd" 13 osc0
+~E 1 "./../../dec_7_seg.vhd" 5 seg
+~A 1 "./../../dec_7_seg.vhd" 12 dec

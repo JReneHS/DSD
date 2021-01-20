@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/30/2020 20:33:37
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg; Project name: top_bcd_7_seg
+D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial
+Teclado_Matriciial
+#Start recording tcl command: 11/30/2020 20:40:33
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial; Project name: Teclado_Matriciial
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg/top_bcd_7_seg.ldf"
+prj_project close
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/Teclado_Matriciial.ldf"
+#Stop recording: 11/30/2020 20:40:34

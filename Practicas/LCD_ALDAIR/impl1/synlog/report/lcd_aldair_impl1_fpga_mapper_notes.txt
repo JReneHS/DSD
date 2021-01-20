@@ -1,0 +1,10 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO231 :"d:\semestre 2-2020\dsd\practicas\lcd_aldair\impl1\source\clk_div.vhd":15:3:15:4|Found counter in view:work.lcd_final(lcd) instance cto2.qaux[23:0] 
+@N: FX214 :"d:\semestre 2-2020\dsd\practicas\lcd_aldair\impl1\source\memoria.vhd":10:8:10:9|Generating ROM cto3.salida_1[9:0] (in view: work.lcd_final(lcd)).
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\lcd_aldair_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

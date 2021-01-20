@@ -1,0 +1,123 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd":6:7:6:13|Top entity is set to reg_fin.
+File C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd changed - recompiling
+File D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd changed - recompiling
+File D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd":6:7:6:13|Synthesizing work.reg_fin.reg_top.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd":6:7:6:9|Synthesizing work.reg.registro.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd":29:18:29:21|Removing redundant assignment.
+Post processing for work.reg.registro
+Running optimization stage 1 on reg .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+Post processing for work.clk_div.divisor
+Running optimization stage 1 on clk_div .......
+Post processing for work.reg_fin.reg_top
+Running optimization stage 1 on reg_fin .......
+Running optimization stage 2 on clk_div .......
+Running optimization stage 2 on reg .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on reg_fin .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\impl1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  7 23:33:23 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  7 23:33:23 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\impl1\synwork\reg_4b_top_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  7 23:33:24 2020
+
+###########################################################]

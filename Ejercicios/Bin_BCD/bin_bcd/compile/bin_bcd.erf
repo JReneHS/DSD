@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Bin_BCD\bin_BCD.vhd" 
+MESSAGE "Compile Entity "conv"" 
+MESSAGE "Compile Architecture "bin_bcd" of Entity "conv"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]" 

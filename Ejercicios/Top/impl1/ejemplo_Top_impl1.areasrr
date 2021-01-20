@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell ejemplo.ej_top
+
+Register bits: 2 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        4       100.0
+                                INV        2       100.0
+                                 OB        2       100.0
+                           OFS1P3BX        1       100.0
+                           OFS1P3DX        1       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            14           

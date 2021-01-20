@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  m_ram  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synwork\ram_static_64x4_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synwork\ram_static_64x4_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synlog\ram_static_64x4_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top m_ram -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synwork\ram_static_64x4_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synwork\ram_static_64x4_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\impl1\synlog\ram_static_64x4_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\ram_static_64x4_impl1_comp.srs|io:i|time:1605742402|size:2355|exec:0|csum:B1CDE2A4389ECCC5DBD4A990D2040F6A
+file:..\synwork\ram_static_64x4_impl1_mult.srs|io:o|time:1605742403|size:2130|exec:0|csum:
+file:..\synlog\ram_static_64x4_impl1_multi_srs_gen.srr|io:o|time:1605742403|size:1171|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

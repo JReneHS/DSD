@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\cont_sinc_27412.vhd" 
+MESSAGE "Compile Entity "contador"" 
+MESSAGE "Compile Architecture "sincrono" of Entity "contador"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

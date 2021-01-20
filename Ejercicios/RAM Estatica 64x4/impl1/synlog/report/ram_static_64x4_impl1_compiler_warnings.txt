@@ -1,0 +1,10 @@
+@W: CG296 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":28:10:28:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:6:30:7|Referenced variable cs is not in sensitivity list.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Pruning unused register O_cl_3(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Pruning unused register O_cl_3(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Pruning unused register O_cl_3(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Pruning unused register O_cl_3(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+

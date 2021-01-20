@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Oct 10 23:44:04 2020 *
+NOTE DESIGN NAME: barrel_izq_der *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS O[0] : 109 : out *
+NOTE PINS I[0] : 61 : in *
+NOTE PINS O[7] : 117 : out *
+NOTE PINS O[6] : 115 : out *
+NOTE PINS O[5] : 114 : out *
+NOTE PINS O[4] : 113 : out *
+NOTE PINS O[3] : 112 : out *
+NOTE PINS O[2] : 111 : out *
+NOTE PINS O[1] : 110 : out *
+NOTE PINS Izq_Der : 73 : in *
+NOTE PINS shift[2] : 76 : in *
+NOTE PINS shift[1] : 75 : in *
+NOTE PINS shift[0] : 74 : in *
+NOTE PINS I[7] : 71 : in *
+NOTE PINS I[6] : 70 : in *
+NOTE PINS I[5] : 69 : in *
+NOTE PINS I[4] : 68 : in *
+NOTE PINS I[3] : 67 : in *
+NOTE PINS I[2] : 65 : in *
+NOTE PINS I[1] : 62 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

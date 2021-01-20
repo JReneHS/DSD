@@ -1,0 +1,8 @@
+#Start recording tcl command: 1/19/2021 10:28:44
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional; Project name: detector_secuencias_funcional_Moore
+prj_project new -name "detector_secuencias_funcional_Moore" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/moore_det_sec_fun.vhd"
+prj_project save
+prj_project close
+#Stop recording: 1/19/2021 12:43:11

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "top_bcd_7_seg_impl1.log"
+-o "top_bcd_7_seg_impl1.csv"
+-pr "top_bcd_7_seg_impl1.prf"

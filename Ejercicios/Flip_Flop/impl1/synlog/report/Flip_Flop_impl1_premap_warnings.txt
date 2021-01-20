@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\ejercicios\flip_flop\flip_flop.vhd":14:3:14:4|Found inferred clock flip|clk which controls 1 sequential elements including Qaux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

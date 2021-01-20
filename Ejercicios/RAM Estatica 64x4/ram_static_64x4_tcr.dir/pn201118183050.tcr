@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/18/2020 16:55:35
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/RAM Estatica 64x4; Project name: ram_static_64x4
+prj_project new -name "ram_static_64x4" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/RAM Estatica 64x4/ram_64x4.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+#Stop recording: 11/18/2020 18:30:50

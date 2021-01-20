@@ -1,0 +1,10 @@
+#Start recording tcl command: 10/5/2020 11:58:57
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop; Project name: Flip_Flop
+prj_project new -name "Flip_Flop" -impl "impl1" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop/Flip_Flop.spf"
+prj_project save
+prj_project close
+#Stop recording: 10/5/2020 13:39:37

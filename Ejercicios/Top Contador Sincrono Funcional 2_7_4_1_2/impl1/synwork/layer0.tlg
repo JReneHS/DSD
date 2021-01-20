@@ -1,0 +1,34 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Top Contador Sincrono Funcional 2_7_4_1_2\top_cont_sinc_fun.vhd":4:7:4:14|Synthesizing work.cont_top.top_fun.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\cont_sinc_fun_27412.vhd":4:7:4:10|Synthesizing work.cont.sinc_fun.
+Post processing for work.cont.sinc_fun
+Running optimization stage 1 on cont .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+Post processing for work.clk_div.divisor
+Running optimization stage 1 on clk_div .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.cont_top.top_fun
+Running optimization stage 1 on cont_top .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on clk_div .......
+Running optimization stage 2 on cont .......
+@N: CL201 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\cont_sinc_fun_27412.vhd":16:3:16:4|Trying to extract state machine for register Qaux.
+Extracted state machine for register Qaux
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   100
+   111
+Running optimization stage 2 on cont_top .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Top Contador Sincrono Funcional 2_7_4_1_2\impl1\synwork\layer0.rt.csv
+

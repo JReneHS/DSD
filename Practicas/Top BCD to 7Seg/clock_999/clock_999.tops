@@ -1,0 +1,5 @@
+clk_div,/,D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/clock_div_28.vhd
+osc00,/,D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd
+conv,/,D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/bin_bcd.vhd
+multiplexor,/,D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/mux11_3.vhd
+seg,/,D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/dec_7_seg.vhd

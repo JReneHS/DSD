@@ -1,0 +1,3 @@
+1
+~E 1 "./../../clk_div.vhd" 7 clk_div
+~A 1 "./../../clk_div.vhd" 14 divisor

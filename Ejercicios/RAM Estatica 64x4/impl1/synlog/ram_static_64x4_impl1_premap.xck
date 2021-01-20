@@ -1,0 +1,2 @@
+ckid0_0:@|S:clk_r.OUT@|E:O_1[3]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:clk_w_1.OUT@|E:dato[3:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

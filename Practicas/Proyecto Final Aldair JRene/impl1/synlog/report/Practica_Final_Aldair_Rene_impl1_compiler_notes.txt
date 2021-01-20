@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\top_P_Final.vhd":4:7:4:12|Top entity is set to pfinal.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\top_P_Final.vhd":4:7:4:12|Synthesizing work.pfinal.top.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\pacman_ROM.vhd":4:7:4:11|Synthesizing work.m_rom.mem.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\dec_3_8.vhd":7:7:7:10|Synthesizing work.deco.de.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\clk_div_pacman.vhd":7:7:7:13|Synthesizing work.clk_pcm.divpcm.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\LCD.vhd":4:7:4:11|Synthesizing work.lcd_1.lcddis.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\clk_div_LCD.vhd":5:7:5:13|Synthesizing work.clk_lcd.divlcd.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\oscilador.vhd":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\dec_7_seg.vhd" 
+MESSAGE "Compile Entity "seg"" 
+MESSAGE "Compile Architecture "dec" of Entity "seg"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

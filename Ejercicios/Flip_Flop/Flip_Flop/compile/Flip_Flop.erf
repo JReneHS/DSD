@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Flip_Flop\Flip_Flop.vhd" 
+MESSAGE "Compile Entity "flip"" 
+MESSAGE "Compile Architecture "flop" of Entity "flip"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

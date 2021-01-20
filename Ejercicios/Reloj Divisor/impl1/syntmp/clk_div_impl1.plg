@@ -1,0 +1,8 @@
+@P:  Worst Slack : 4.687
+@P:  clk_div|clk - Estimated Frequency : 188.2 MHz
+@P:  clk_div|clk - Requested Frequency : 100.0 MHz
+@P:  clk_div|clk - Estimated Period : 5.313
+@P:  clk_div|clk - Requested Period : 10.000
+@P:  clk_div|clk - Slack : 4.687
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

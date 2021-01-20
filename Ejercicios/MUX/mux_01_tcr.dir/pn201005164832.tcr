@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/5/2020 16:45:34
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/MUX; Project name: mux_01
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/MUX/mux_01.ldf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_project save
+prj_project close
+#Stop recording: 10/5/2020 16:48:32

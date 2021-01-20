@@ -1,0 +1,8 @@
+#Start recording tcl command: 1/19/2021 09:13:37
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional; Project name: Detector_Secuencia_Funcional
+prj_project new -name "Detector_Secuencia_Funcional" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec_fun.vhd"
+prj_project save
+prj_project close
+#Stop recording: 1/19/2021 10:28:44

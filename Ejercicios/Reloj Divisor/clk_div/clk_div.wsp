@@ -1,0 +1,13 @@
+[COMPILESTATUS|.\..\clk_div.vhd]
+FileTimeLow=30842099
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\clk_div.adf|]
+Path=/clk_div
+
+[Gui config]
+RunFor=100 ns
+

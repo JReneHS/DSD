@@ -1,0 +1,91 @@
+i cto1.Qaux_i[19]
+m 0 0
+u 1 4
+n ckid0_0 {t:cto2.Qaux[3:0].C} Derived clock on input (not legal for GCC)
+p {t:cto1.Qaux[19:0].Q[19]}{t:cto1.Qaux_derived_clock[19].I[0]}{t:cto1.Qaux_derived_clock[19].OUT[0]}{p:cto1.q19}{t:cto1.q19}{t:cto2.clk}{p:cto2.clk}{t:cto2.Qaux[3:0].C}
+e ckid0_0 {t:cto2.Qaux[3:0].C} dffre
+d ckid0_1 {t:cto1.Qaux[19:0].Q[19]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto3.osc_int0_i
+m 0 0
+u 1 20
+n ckid0_2 {t:cto1.Qaux[19:0].C} Black box on clock path
+p {t:cto3.OSCInst0.OSC}{t:cto3.osc_int0_inferred_clock.I[0]}{t:cto3.osc_int0_inferred_clock.OUT[0]}{p:cto3.osc_int0}{t:cto3.osc_int0}{t:cto1.clk}{p:cto1.clk}{t:cto1.Qaux[19:0].C}
+e ckid0_2 {t:cto1.Qaux[19:0].C} dffr
+d ckid0_2 {t:cto3.OSCInst0.OSC} OSCH Black box on clock path
+i cto1.Qaux[18]
+m 0 0
+u 0 0
+d ckid0_3 {t:cto1.Qaux[19:0].Q[18]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[17]
+m 0 0
+u 0 0
+d ckid0_4 {t:cto1.Qaux[19:0].Q[17]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[16]
+m 0 0
+u 0 0
+d ckid0_5 {t:cto1.Qaux[19:0].Q[16]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[15]
+m 0 0
+u 0 0
+d ckid0_6 {t:cto1.Qaux[19:0].Q[15]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[14]
+m 0 0
+u 0 0
+d ckid0_7 {t:cto1.Qaux[19:0].Q[14]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[13]
+m 0 0
+u 0 0
+d ckid0_8 {t:cto1.Qaux[19:0].Q[13]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[12]
+m 0 0
+u 0 0
+d ckid0_9 {t:cto1.Qaux[19:0].Q[12]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[11]
+m 0 0
+u 0 0
+d ckid0_10 {t:cto1.Qaux[19:0].Q[11]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[10]
+m 0 0
+u 0 0
+d ckid0_11 {t:cto1.Qaux[19:0].Q[10]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[9]
+m 0 0
+u 0 0
+d ckid0_12 {t:cto1.Qaux[19:0].Q[9]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[8]
+m 0 0
+u 0 0
+d ckid0_13 {t:cto1.Qaux[19:0].Q[8]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[7]
+m 0 0
+u 0 0
+d ckid0_14 {t:cto1.Qaux[19:0].Q[7]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[6]
+m 0 0
+u 0 0
+d ckid0_15 {t:cto1.Qaux[19:0].Q[6]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[5]
+m 0 0
+u 0 0
+d ckid0_16 {t:cto1.Qaux[19:0].Q[5]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[4]
+m 0 0
+u 0 0
+d ckid0_17 {t:cto1.Qaux[19:0].Q[4]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[3]
+m 0 0
+u 0 0
+d ckid0_18 {t:cto1.Qaux[19:0].Q[3]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[2]
+m 0 0
+u 0 0
+d ckid0_19 {t:cto1.Qaux[19:0].Q[2]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[1]
+m 0 0
+u 0 0
+d ckid0_20 {t:cto1.Qaux[19:0].Q[1]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cto1.Qaux[0]
+m 0 0
+u 0 0
+d ckid0_21 {t:cto1.Qaux[19:0].Q[0]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0

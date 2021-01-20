@@ -1,0 +1,19 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Jan 20 00:38:19 2021 *
+NOTE DESIGN NAME: lcd_final *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS s[0] : 141 : out *
+NOTE PINS clr : 109 : in *
+NOTE PINS s[9] : 143 : out *
+NOTE PINS s[8] : 142 : out *
+NOTE PINS s[7] : 127 : out *
+NOTE PINS s[6] : 128 : out *
+NOTE PINS s[5] : 132 : out *
+NOTE PINS s[4] : 133 : out *
+NOTE PINS s[3] : 138 : out *
+NOTE PINS s[2] : 139 : out *
+NOTE PINS s[1] : 140 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

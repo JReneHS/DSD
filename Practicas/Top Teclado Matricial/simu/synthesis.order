@@ -1,0 +1,9 @@
+i<>.\..\cont_16.vhd
+i<>.\..\..\Top BCD to 7Seg\dec_7_seg.vhd
+i<>.\..\reg_4b.vhd
+i<>.\..\clock_div.vhd
+i<>.\..\..\..\Ejercicios\Oscilador\oscilador_ejemplo.vhd
+i<>.\..\debounce.vhd
+i<>.\..\decoder_1_4.vhd
+i<>.\..\mux_4_1.vhd
+i<>.\..\Top_Teclado.vhd

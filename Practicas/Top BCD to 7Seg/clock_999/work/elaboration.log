@@ -1,0 +1,35 @@
+Active-HDL 10.5.216.6767 2020-11-09 10:01:22
+
+Elaboration top modules:
+Architecture                  divisor(clk_div)
+
+
+-----------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+clk_div  | divisor      | work    |      | 10.5.216.6767 (Windows) | -dbg
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+standard                | std     |      |                         | <unavailable>
+TEXTIO                  | std     |      |                         | <unavailable>
+std_logic_1164          | ieee    |      |                         | <unavailable>
+std_logic_arith         | ieee    |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+work                    | None
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r clk_div -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

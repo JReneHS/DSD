@@ -1,0 +1,1 @@
+run_tcl -fg Teclado_Matriciial_impl1_synplify.tcl

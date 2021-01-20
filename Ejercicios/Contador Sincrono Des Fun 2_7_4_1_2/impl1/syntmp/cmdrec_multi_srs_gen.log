@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  cont  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synwork\Cont_sinc_fun_27412_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synwork\Cont_sinc_fun_27412_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synlog\Cont_sinc_fun_27412_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top cont -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synwork\Cont_sinc_fun_27412_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synwork\Cont_sinc_fun_27412_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synlog\Cont_sinc_fun_27412_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\Cont_sinc_fun_27412_impl1_comp.srs|io:i|time:1603317412|size:2061|exec:0|csum:41485716E7490474552501EE0541815D
+file:..\synwork\Cont_sinc_fun_27412_impl1_mult.srs|io:o|time:1603317414|size:1792|exec:0|csum:
+file:..\synlog\Cont_sinc_fun_27412_impl1_multi_srs_gen.srr|io:o|time:1603317414|size:1064|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

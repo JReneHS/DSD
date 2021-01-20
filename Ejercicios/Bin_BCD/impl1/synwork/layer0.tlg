@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Bin_BCD\bin_BCD.vhd":5:7:5:10|Synthesizing work.conv.bin_bcd.
+Post processing for work.conv.bin_bcd
+Running optimization stage 1 on conv .......
+Running optimization stage 2 on conv .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Bin_BCD\impl1\synwork\layer0.rt.csv
+

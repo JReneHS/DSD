@@ -1,0 +1,15 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="simu" simType="Active-HDL">
+    <Source worklib="work" path="cont_16.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../Top BCD to 7Seg/dec_7_seg.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="reg_4b.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="clock_div.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../Ejercicios/Oscilador/oscilador_ejemplo.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="debounce.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="decoder_1_4.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="mux_4_1.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="Top_Teclado.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="top"/>
+</BaliSimProject>

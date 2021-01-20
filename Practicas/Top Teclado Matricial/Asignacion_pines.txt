@@ -1,0 +1,21 @@
+ASIGNACION DE PINES TECLADO MATRICIAL
+
+clr-------->109
+
+segOut[0]-->110
+segOut[1]-->111
+segOut[2]-->112
+segOut[3]-->113
+segOut[4]-->114
+segOut[5]-->115
+segOut[6]-->117
+
+col[0]----->104
+col[1]----->105
+col[2]----->106
+col[3]----->107
+
+fil[0]----->140
+fil[1]----->141
+fil[2]----->142
+fil[3]----->143

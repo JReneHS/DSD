@@ -1,0 +1,7 @@
+i clk
+m 0 0
+u 1 1
+p {p:clk}{t:cto1.clk}{p:cto1.clk}{t:cto1.Qaux.C}
+e ckid0_0 {t:cto1.Qaux.C} dffr
+c ckid0_0 {p:clk} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

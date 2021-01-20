@@ -1,0 +1,53 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 15
+FID:  path (timestamp)
+0        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+1        C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+2        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+3        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+4        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:38:28)
+5        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+11       D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd (2020-10-07 22:21:54)
+12       D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd (2020-10-07 22:53:06)
+13       D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd (2020-10-05 20:46:32)
+14       D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd (2020-10-07 22:28:20)
+
+*******************************************************************
+Unchanged modules: 8
+MID:  lib.cell.view
+0        work.clk_div.divisor
+1        work.clk_div.vhdl
+2        work.osc00.osc0
+3        work.osc00.vhdl
+4        work.reg.registro
+5        work.reg.vhdl
+6        work.reg_fin.reg_top
+7        work.reg_fin.vhdl

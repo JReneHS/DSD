@@ -1,0 +1,45 @@
+[COMPILESTATUS|.\..\cont_16.vhd]
+FileTimeLow=30852577
+Status=Compiled
+
+[COMPILESTATUS|.\..\..\Top BCD to 7Seg\dec_7_seg.vhd]
+FileTimeLow=30849533
+Status=Compiled
+
+[COMPILESTATUS|.\..\reg_4b.vhd]
+FileTimeLow=30852585
+Status=Compiled
+
+[COMPILESTATUS|.\..\clock_div.vhd]
+FileTimeLow=30852582
+Status=Compiled
+
+[COMPILESTATUS|.\..\..\..\Ejercicios\Oscilador\oscilador_ejemplo.vhd]
+FileTimeLow=30842146
+Status=Warning
+
+[COMPILESTATUS|.\..\debounce.vhd]
+FileTimeLow=30852582
+Status=Compiled
+
+[COMPILESTATUS|.\..\decoder_1_4.vhd]
+FileTimeLow=30852578
+Status=Compiled
+
+[COMPILESTATUS|.\..\mux_4_1.vhd]
+FileTimeLow=30852575
+Status=Compiled
+
+[COMPILESTATUS|.\..\Top_Teclado.vhd]
+FileTimeLow=30852593
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\simu.adf|]
+Path=/top
+
+[Gui config]
+RunFor=100 ns
+

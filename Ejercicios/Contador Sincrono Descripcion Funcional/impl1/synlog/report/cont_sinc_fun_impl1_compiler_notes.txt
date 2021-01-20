@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Descripcion Funcional\cont_sinc_fun.vhd":4:7:4:10|Top entity is set to cont.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Descripcion Funcional\cont_sinc_fun.vhd":4:7:4:10|Synthesizing work.cont.sinc_fun.
+@N: CL201 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Descripcion Funcional\cont_sinc_fun.vhd":16:3:16:4|Trying to extract state machine for register Qaux.
+@N|Running in 64-bit mode
+

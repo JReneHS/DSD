@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  ejemplo  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synwork\ejemplo_Top_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synwork\ejemplo_Top_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synlog\ejemplo_Top_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top ejemplo -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synwork\ejemplo_Top_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synwork\ejemplo_Top_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\Top\impl1\synlog\ejemplo_Top_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\ejemplo_Top_impl1_comp.srs|io:i|time:1601947824|size:2894|exec:0|csum:076DF9FCA7B72303772927515B96E4AF
+file:..\synwork\ejemplo_Top_impl1_mult.srs|io:o|time:1601947827|size:2214|exec:0|csum:
+file:..\synlog\ejemplo_Top_impl1_multi_srs_gen.srr|io:o|time:1601947827|size:1032|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -1,0 +1,4 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: flip Architecture: flop, 0h:00m:00s,     71 MB
+work, Entity: multiplexor Architecture: mux, 0h:00m:00s,     71 MB
+work, Entity: ejemplo Architecture: ej_top, 0h:00m:00s,     71 MB

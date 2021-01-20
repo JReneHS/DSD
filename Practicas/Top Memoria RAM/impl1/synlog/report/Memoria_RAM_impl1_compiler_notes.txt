@@ -1,0 +1,15 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd":5:7:5:9|Top entity is set to top.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd":5:7:5:9|Synthesizing work.top.tram.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\mux_2_1.vhd":6:8:6:18|Synthesizing work.multiplexor.mux.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\E_Rebotes.vhd":4:7:4:9|Synthesizing work.deb.noreb.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":5:7:5:11|Synthesizing work.m_ram.mem_ram.
+@N: CL134 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":16:8:16:11|Found RAM dato, depth=8, width=8
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\dec_3_8.vhd":7:7:7:10|Synthesizing work.deco.de.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_deb.vhd":7:7:7:13|Synthesizing work.clk_deb.divisor.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\oscilador.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

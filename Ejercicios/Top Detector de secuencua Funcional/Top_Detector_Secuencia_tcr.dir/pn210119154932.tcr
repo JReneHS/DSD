@@ -1,0 +1,15 @@
+#Start recording tcl command: 1/19/2021 12:43:11
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional; Project name: Top_Detector_Secuencia
+prj_project new -name "Top_Detector_Secuencia" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/eliminador_rebotes_pulso.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/clk_div.vhd"
+pwc_command new -project "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/detector_secuencia.pcf"
+prj_src add -exclude "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/detector_secuencia.pcf"
+prj_src enable "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/detector_secuencia.pcf"
+pwc_command exit
+prj_src remove "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/detector_secuencia.pcf"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/detector_secuencia.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/oscilador.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector (Moore) de secuencua Funcional/top_det_sec.vhd"
+#Stop recording: 1/19/2021 15:49:32

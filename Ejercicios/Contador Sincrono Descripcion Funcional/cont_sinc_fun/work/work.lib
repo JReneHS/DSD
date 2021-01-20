@@ -1,0 +1,24 @@
+timestamp=1603317088888
+
+[~A]
+ModifyID=1
+Version=74
+
+[cont]
+A/sinc_fun=21|./../../cont_sinc_fun.vhd|11|1*0
+BinI32/sinc_fun=3*0
+I=0*500
+I/sinc_fun=0*1294
+M=11|0|vde|1603317088714|./../../cont_sinc_fun.vhd|0*192*0xf4032236156620e1a25a4d394f140c7fec550e18|0*417*0x23b75c12e3e89f2ef000564498faa8c2
+M/sinc_fun=21|0|vde|1603317088720|./../../cont_sinc_fun.vhd|0*698*0xaa2484869c426649edfa08a5cbb7766359b45af5|0*1199*0x9065d32a2e40e13794b29a2731812845
+R=./../../cont_sinc_fun.vhd|4
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|e12ec2206b9f9d9394e223e5e9bfec906616cbc011b0b5ee0b5a2fb6e2abc300
+Version/sinc_fun=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|b19e192e928458e67b2e10f9a68f5952bf54c37a5929d0b0bef44c4f98f3ba18ed43d2dd6711c5d69c6bc5b5767bd6fa
+
+[~MFT]
+0=7|0work.mgf|1294|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+cont=11|0*0|

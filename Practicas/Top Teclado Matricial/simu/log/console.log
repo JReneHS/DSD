@@ -1,0 +1,119 @@
+# Design Explorer: Shortcut to "D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\simu\simu.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/cont_16.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\cont_16.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg/dec_7_seg.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_7_seg.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/reg_4b.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\reg_4b.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/clock_div.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\clock_div.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/debounce.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\debounce.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/decoder_1_4.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\decoder_1_4.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/mux_4_1.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\mux_4_1.vhd ... Done
+addfile {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/Top_Teclado.vhd}
+# Adding file D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd ... Done
+vlib {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/simu/work}
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/cont_16.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\cont_16.vhd
+# Compile Entity "cont"
+# Compile Architecture "sinc_fun" of Entity "cont"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg/dec_7_seg.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_7_seg.vhd
+# Compile Entity "seg"
+# Compile Architecture "dec" of Entity "seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/reg_4b.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\reg_4b.vhd
+# Compile Entity "reg"
+# Compile Architecture "registro" of Entity "reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/clock_div.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\clock_div.vhd
+# Compile Entity "clk_div"
+# Compile Architecture "divisor" of Entity "clk_div"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd}
+# File: D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd
+# Compile Entity "osc00"
+# Compile Architecture "osc0" of Entity "osc00"
+# Warning: ELAB1_0026: ../../Ejercicios/Oscilador/oscilador_ejemplo.vhd : (25, 0): There is no default binding for component "OSCH". (No entity named "OSCH" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/debounce.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\debounce.vhd
+# Compile Entity "deb"
+# Compile Architecture "noreb" of Entity "deb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/decoder_1_4.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\decoder_1_4.vhd
+# Compile Entity "decoder"
+# Compile Architecture "dec" of Entity "decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/mux_4_1.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\mux_4_1.vhd
+# Compile Entity "multi"
+# Compile Architecture "mux" of Entity "multi"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work {D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/Top_Teclado.vhd}
+# File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd
+# Compile Entity "top"
+# Compile Architecture "tec" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+entity top
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Entity ovi_machxo2.OSCH has been compiled after architecture work.osc00(osc0) that instantiates and binds this entity at simulation initialization. Recompile the source files in the correct order to perform the binding operation during compilation and simultaneously reduce the time required to initialize the simulation.
+# ELBREAD: Elaboration time 0.6 [s].
+vsim +access +r top -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Entity ovi_machxo2.OSCH has been compiled after architecture work.osc00(osc0) that instantiates and binds this entity at simulation initialization. Recompile the source files in the correct order to perform the binding operation during compilation and simultaneously reduce the time required to initialize the simulation.
+# ELBREAD: Elaboration time 0.7 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.9 [s]
+# SLP: Finished : 3.0 [s]
+# SLP: 3 (16.67%) primitives and 2 (11.11%) other processes in SLP
+# SLP: 4 (57.14%) signals in SLP and 3 (42.86%) interface signals
+# ELAB2: Elaboration final pass complete - time: 4.4 [s].
+# KERNEL: SLP loading done - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7234 kB (elbread=1280 elab2=5812 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\simu\src\wave.asdb
+#  19:57, sábado, 28 de noviembre de 2020
+#  Simulation has been initialized
+add wave *
+# 13 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/simu/src/wave.asdb'.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 240380 ps,  Iteration: 1,  Instance: /top/cto5,  Process: line__17.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 721140 ps,  Iteration: 1,  Instance: /top/cto5,  Process: line__17.
+# KERNEL: stopped at time: 1 us

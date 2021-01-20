@@ -1,0 +1,2 @@
+@E: CL123 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":30:3:30:4|Logic for O_3(3 downto 0) does not match a standard flip-flop
+

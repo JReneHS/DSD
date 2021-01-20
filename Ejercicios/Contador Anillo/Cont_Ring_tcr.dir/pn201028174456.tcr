@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/28/2020 17:20:36
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Contador Anillo; Project name: Cont_Ring
+prj_project new -name "Cont_Ring" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Contador Anillo/cont_ring.vhd"
+#Stop recording: 10/28/2020 17:44:56

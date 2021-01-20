@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/19/2020 00:30:13
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/ROM; Project name: rom
+prj_project new -name "rom" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/ROM/rom.vhd"
+#Stop recording: 11/19/2020 00:38:55

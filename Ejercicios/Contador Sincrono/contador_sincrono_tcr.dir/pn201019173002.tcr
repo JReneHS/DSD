@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/19/2020 16:47:23
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Contador Sincrono; Project name: contador_sincrono
+prj_project new -name "contador_sincrono" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Contador Sincrono/cont_sinc.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Contador Sincrono/cont_sinc/cont_sinc.spf"
+#Stop recording: 10/19/2020 17:30:02

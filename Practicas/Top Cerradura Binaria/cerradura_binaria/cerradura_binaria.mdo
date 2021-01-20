@@ -1,0 +1,23 @@
+if {![file exists "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria/cerradura_binaria.mpf"]} { 
+	project new "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria" cerradura_binaria
+	project addfile "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd"
+	project addfile "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd"
+	project addfile "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd"
+	project addfile "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd"
+	project addfile "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd"
+	vcom -work work "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd"
+	vcom -work work "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd"
+	vcom -work work "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd"
+	vcom -work work "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd"
+} else {
+	project open "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria/cerradura_binaria"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  det_sec
+view wave
+add wave /*
+run 1000ns

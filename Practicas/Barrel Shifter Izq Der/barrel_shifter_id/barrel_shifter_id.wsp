@@ -1,0 +1,22 @@
+[COMPILESTATUS|.\..\barrel_shifter_izq_der.vhd]
+FileTimeLow=30842308
+Status=Compiled
+
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\..\barrel_shifter_izq_der.vhd|]
+CurrentLine=11
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentZoomFactor=1.000000
+Frame=0
+WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////74AAAB6AAAAVgUAABwCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\barrel_shifter_id.adf|]
+Path=/barrel_izq_der
+
+[Gui config]
+RunFor=100 ns
+

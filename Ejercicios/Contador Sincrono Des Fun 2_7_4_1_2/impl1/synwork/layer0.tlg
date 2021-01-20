@@ -1,0 +1,17 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\cont_sinc_fun_27412.vhd":4:7:4:10|Synthesizing work.cont.sinc_fun.
+Post processing for work.cont.sinc_fun
+Running optimization stage 1 on cont .......
+Running optimization stage 2 on cont .......
+@N: CL201 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\cont_sinc_fun_27412.vhd":16:3:16:4|Trying to extract state machine for register Qaux.
+Extracted state machine for register Qaux
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   100
+   111
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Des Fun 2_7_4_1_2\impl1\synwork\layer0.rt.csv
+

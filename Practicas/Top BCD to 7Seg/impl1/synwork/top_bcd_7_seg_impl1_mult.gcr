@@ -1,0 +1,8 @@
+i cto2.osc_int0_i
+m 0 0
+u 1 29
+n ckid0_0 {t:cto1.Qaux[28:0].C} Black box on clock path
+p {t:cto2.OSCInst0.OSC}{t:cto2.osc_int0_inferred_clock.I[0]}{t:cto2.osc_int0_inferred_clock.OUT[0]}{p:cto2.osc_int0}{t:cto2.osc_int0}{t:cto1.clk}{p:cto1.clk}{t:cto1.Qaux[28:0].C}
+e ckid0_0 {t:cto1.Qaux[28:0].C} dffr
+d ckid0_0 {t:cto2.OSCInst0.OSC} OSCH Black box on clock path
+l 0 0 0 0 0

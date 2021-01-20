@@ -1,0 +1,30 @@
+V 000044 55 814           1601923733716 mux
+(_unit VHDL(multiplexor 0 5(mux 0 11))
+	(_version vde)
+	(_time 1601923733717 2020.10.05 13:48:53)
+	(_source(\./../../mux.vhd\))
+	(_parameters dbg tan)
+	(_code 9d9ac193ccca9a8a989e84c6cc9bce9b989a959bcb)
+	(_coverage d)
+	(_ent
+		(_time 1601923733693)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 6(_array -1((_dto i 3 i 0)))))
+		(_port(_int I 0 0 6(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{1~downto~0}~12 0 7(_array -1((_dto i 1 i 0)))))
+		(_port(_int s 1 0 7(_ent(_in))))
+		(_port(_int ex_mux -1 0 8(_ent(_out))))
+		(_prcs
+			(line__13(_arch 0 0 13(_prcs(_simple)(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_static
+		(514)
+		(770)
+		(515)
+	)
+	(_model . mux 1 -1)
+)

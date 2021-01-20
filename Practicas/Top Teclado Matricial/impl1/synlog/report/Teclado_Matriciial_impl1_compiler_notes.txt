@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd":4:7:4:9|Top entity is set to top.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd":4:7:4:9|Synthesizing work.top.tec.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\cont_16.vhd":4:7:4:10|Synthesizing work.cont.sinc_fun.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_7_seg.vhd":6:7:6:9|Synthesizing work.seg.dec.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\reg_4b.vhd":4:7:4:9|Synthesizing work.reg.registro.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\reg_4b.vhd":20:21:20:24|Removing redundant assignment.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\clock_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\debounce.vhd":4:7:4:9|Synthesizing work.deb.noreb.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\decoder_1_4.vhd":3:7:3:13|Synthesizing work.decoder.dec.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\mux_4_1.vhd":3:7:3:11|Synthesizing work.multi.mux.
+@N: CL201 :"D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\cont_16.vhd":16:3:16:4|Trying to extract state machine for register Qaux.
+@N|Running in 64-bit mode
+

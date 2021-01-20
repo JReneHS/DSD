@@ -1,0 +1,8 @@
+#Start recording tcl command: 1/20/2021 10:49:58
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/LCD; Project name: LCD_JRHS
+prj_project new -name "LCD_JRHS" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/LCD/clk_div.vhd" "D:/Semestre 2-2020/DSD/Practicas/LCD/lcd.vhd" "D:/Semestre 2-2020/DSD/Practicas/LCD/lcd_top.vhd" "D:/Semestre 2-2020/DSD/Practicas/LCD/oscilador.vhd"
+prj_project save
+prj_project save
+prj_project close
+#Stop recording: 1/20/2021 10:51:49

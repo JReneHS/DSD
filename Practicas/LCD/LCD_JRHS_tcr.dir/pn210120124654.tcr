@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/20/2021 12:46:34
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/LCD; Project name: LCD_JRHS
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/LCD/LCD_JRHS.ldf"
+prj_project close
+#Stop recording: 1/20/2021 12:46:54

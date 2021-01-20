@@ -1,0 +1,1 @@
+-w -erf "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop/compile/Flip_Flop.erf" -d "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop/compile" -s "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop/library.cfg" -j "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop/projlib.cfg" -work work -dbg -work work "D:/Semestre 2-2020/DSD/Ejercicios/Flip_Flop/Flip_Flop.vhd" 

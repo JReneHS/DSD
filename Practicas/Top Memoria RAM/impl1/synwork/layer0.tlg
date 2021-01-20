@@ -1,0 +1,77 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd":5:7:5:9|Synthesizing work.top.tram.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\mux_2_1.vhd":6:8:6:18|Synthesizing work.multiplexor.mux.
+Post processing for work.multiplexor.mux
+Running optimization stage 1 on multiplexor .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\E_Rebotes.vhd":4:7:4:9|Synthesizing work.deb.noreb.
+Post processing for work.deb.noreb
+Running optimization stage 1 on deb .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":5:7:5:11|Synthesizing work.m_ram.mem_ram.
+@W: CG296 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":28:10:28:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":33:25:33:25|Referenced variable a is not in sensitivity list.
+@W: CG290 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:6:30:7|Referenced variable cs is not in sensitivity list.
+Post processing for work.m_ram.mem_ram
+Running optimization stage 1 on m_ram .......
+@N: CL134 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":16:8:16:11|Found RAM dato, depth=8, width=8
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Pruning unused register O_cl(0). Make sure that there are no unused intermediate registers.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(1); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(2); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(3); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(4); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(5); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(6); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O_tri_enable; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL117 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd":30:3:30:4|Latch generated from process for signal O(7); possible missing assignment in an if or case statement.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\dec_3_8.vhd":7:7:7:10|Synthesizing work.deco.de.
+Post processing for work.deco.de
+Running optimization stage 1 on deco .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_deb.vhd":7:7:7:13|Synthesizing work.clk_deb.divisor.
+Post processing for work.clk_deb.divisor
+Running optimization stage 1 on clk_deb .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+Post processing for work.clk_div.divisor
+Running optimization stage 1 on clk_div .......
+@N: CD630 :"D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\oscilador.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.top.tram
+Running optimization stage 1 on top .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on clk_div .......
+Running optimization stage 2 on clk_deb .......
+Running optimization stage 2 on deco .......
+Running optimization stage 2 on m_ram .......
+Running optimization stage 2 on deb .......
+Running optimization stage 2 on multiplexor .......
+Running optimization stage 2 on top .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\impl1\synwork\layer0.rt.csv
+

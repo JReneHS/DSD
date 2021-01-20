@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Flip_Flop\Flip_Flop.vhd":3:8:3:11|Top entity is set to flip.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Flip_Flop\Flip_Flop.vhd":3:8:3:11|Synthesizing work.flip.flop.
+@N|Running in 64-bit mode
+

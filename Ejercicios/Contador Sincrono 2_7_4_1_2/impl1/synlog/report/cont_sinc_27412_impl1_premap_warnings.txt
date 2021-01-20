@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\ejercicios\contador sincrono 2_7_4_1_2\cont_sinc_27412.vhd":34:3:34:4|Found inferred clock contador|clk which controls 3 sequential elements including QcAux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

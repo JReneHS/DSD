@@ -1,0 +1,310 @@
+# Wed Jan 20 00:37:41 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-2I5LM3P
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+@N: MO231 :"d:\semestre 2-2020\dsd\practicas\lcd_aldair\impl1\source\clk_div.vhd":15:3:15:4|Found counter in view:work.lcd_final(lcd) instance cto2.qaux[23:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+@N: FX214 :"d:\semestre 2-2020\dsd\practicas\lcd_aldair\impl1\source\memoria.vhd":10:8:10:9|Generating ROM cto3.salida_1[9:0] (in view: work.lcd_final(lcd)).
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   475.60ns		   1 /        24
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 173MB)
+
+Writing Analyst data base D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synwork\lcd_aldair_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\lcd_aldair_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 178MB peak: 179MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int0_inferred_clock with period 480.77ns. Please declare a user-defined clock on net cto1.Qaux.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jan 20 00:37:46 2021
+#
+
+
+Top view:               lcd_final
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 475.027
+
+                                  Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                    Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int0_inferred_clock     2.1 MHz       174.2 MHz     480.769       5.742         475.027     inferred     Inferred_clkgroup_0
+======================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int0_inferred_clock  osc00|osc_int0_inferred_clock  |  480.769     475.028  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                          Arrival            
+Instance         Reference                         Type        Pin     Net         Time        Slack  
+                 Clock                                                                                
+------------------------------------------------------------------------------------------------------
+cto2.qaux[0]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[0]     0.972       475.027
+cto2.qaux[1]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[1]     0.972       475.170
+cto2.qaux[2]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[2]     0.972       475.170
+cto2.qaux[3]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[3]     0.972       475.313
+cto2.qaux[4]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[4]     0.972       475.313
+cto2.qaux[5]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[5]     0.972       475.456
+cto2.qaux[6]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[6]     0.972       475.456
+cto2.qaux[7]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[7]     0.972       475.599
+cto2.qaux[8]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[8]     0.972       475.599
+cto2.qaux[9]     osc00|osc_int0_inferred_clock     FD1S3DX     Q       qaux[9]     0.972       475.741
+======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                             Required            
+Instance          Reference                         Type        Pin     Net            Time         Slack  
+                  Clock                                                                                    
+-----------------------------------------------------------------------------------------------------------
+cto2.qaux[23]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[23]     480.664      475.027
+cto2.qaux[21]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[21]     480.664      475.170
+cto2.qaux[22]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[22]     480.664      475.170
+cto2.qaux[19]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[19]     480.664      475.313
+cto2.qaux[20]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[20]     480.664      475.313
+cto2.qaux[17]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[17]     480.664      475.456
+cto2.qaux[18]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[18]     480.664      475.456
+cto2.qaux[15]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[15]     480.664      475.599
+cto2.qaux[16]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[16]     480.664      475.599
+cto2.qaux[13]     osc00|osc_int0_inferred_clock     FD1S3DX     D       qaux_s[13]     480.664      475.741
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      5.636
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     475.027
+
+    Number of logic level(s):                13
+    Starting point:                          cto2.qaux[0] / Q
+    Ending point:                            cto2.qaux[23] / D
+    The start point is clocked by            osc00|osc_int0_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            osc00|osc_int0_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+cto2.qaux[0]            FD1S3DX     Q        Out     0.972     0.972 r     -         
+qaux[0]                 Net         -        -       -         -           1         
+cto2.qaux_cry_0[0]      CCU2D       A1       In      0.000     0.972 r     -         
+cto2.qaux_cry_0[0]      CCU2D       COUT     Out     1.544     2.516 r     -         
+qaux_cry[0]             Net         -        -       -         -           1         
+cto2.qaux_cry_0[1]      CCU2D       CIN      In      0.000     2.516 r     -         
+cto2.qaux_cry_0[1]      CCU2D       COUT     Out     0.143     2.659 r     -         
+qaux_cry[2]             Net         -        -       -         -           1         
+cto2.qaux_cry_0[3]      CCU2D       CIN      In      0.000     2.659 r     -         
+cto2.qaux_cry_0[3]      CCU2D       COUT     Out     0.143     2.802 r     -         
+qaux_cry[4]             Net         -        -       -         -           1         
+cto2.qaux_cry_0[5]      CCU2D       CIN      In      0.000     2.802 r     -         
+cto2.qaux_cry_0[5]      CCU2D       COUT     Out     0.143     2.945 r     -         
+qaux_cry[6]             Net         -        -       -         -           1         
+cto2.qaux_cry_0[7]      CCU2D       CIN      In      0.000     2.945 r     -         
+cto2.qaux_cry_0[7]      CCU2D       COUT     Out     0.143     3.087 r     -         
+qaux_cry[8]             Net         -        -       -         -           1         
+cto2.qaux_cry_0[9]      CCU2D       CIN      In      0.000     3.087 r     -         
+cto2.qaux_cry_0[9]      CCU2D       COUT     Out     0.143     3.230 r     -         
+qaux_cry[10]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[11]     CCU2D       CIN      In      0.000     3.230 r     -         
+cto2.qaux_cry_0[11]     CCU2D       COUT     Out     0.143     3.373 r     -         
+qaux_cry[12]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[13]     CCU2D       CIN      In      0.000     3.373 r     -         
+cto2.qaux_cry_0[13]     CCU2D       COUT     Out     0.143     3.516 r     -         
+qaux_cry[14]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[15]     CCU2D       CIN      In      0.000     3.516 r     -         
+cto2.qaux_cry_0[15]     CCU2D       COUT     Out     0.143     3.659 r     -         
+qaux_cry[16]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[17]     CCU2D       CIN      In      0.000     3.659 r     -         
+cto2.qaux_cry_0[17]     CCU2D       COUT     Out     0.143     3.801 r     -         
+qaux_cry[18]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[19]     CCU2D       CIN      In      0.000     3.801 r     -         
+cto2.qaux_cry_0[19]     CCU2D       COUT     Out     0.143     3.944 r     -         
+qaux_cry[20]            Net         -        -       -         -           1         
+cto2.qaux_cry_0[21]     CCU2D       CIN      In      0.000     3.944 r     -         
+cto2.qaux_cry_0[21]     CCU2D       COUT     Out     0.143     4.087 r     -         
+qaux_cry[22]            Net         -        -       -         -           1         
+cto2.qaux_s_0[23]       CCU2D       CIN      In      0.000     4.087 r     -         
+cto2.qaux_s_0[23]       CCU2D       S0       Out     1.549     5.636 r     -         
+qaux_s[23]              Net         -        -       -         -           1         
+cto2.qaux[23]           FD1S3DX     D        In      0.000     5.636 r     -         
+=====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 179MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 179MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 24 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       11
+
+
+Details:
+CCU2D:          13
+FD1S3DX:        24
+GSR:            1
+IB:             1
+OB:             10
+ORCALUT4:       1
+OSCH:           1
+PUR:            1
+ROM32X1A:       1
+ROM64X1A:       9
+VHI:            2
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 63MB peak: 179MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Wed Jan 20 00:37:47 2021
+
+###########################################################]

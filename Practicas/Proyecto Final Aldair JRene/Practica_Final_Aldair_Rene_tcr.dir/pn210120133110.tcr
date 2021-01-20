@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/20/2021 13:30:04
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Proyecto Final Aldair JRene; Project name: Practica_Final_Aldair_Rene
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Proyecto Final Aldair JRene/Practica_Final_Aldair_Rene.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 1/20/2021 13:31:10

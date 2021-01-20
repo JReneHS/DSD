@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Practica_Final_Aldair_Rene_impl1.log"
+-o "Practica_Final_Aldair_Rene_impl1.csv"
+-pr "Practica_Final_Aldair_Rene_impl1.prf"

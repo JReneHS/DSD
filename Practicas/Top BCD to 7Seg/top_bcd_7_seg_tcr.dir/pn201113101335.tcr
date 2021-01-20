@@ -1,0 +1,13 @@
+#Start recording tcl command: 11/13/2020 08:50:02
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg; Project name: top_bcd_7_seg
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/top_bcd_7_seg.ldf"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/top_bin_bcd_7seg.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/impl1/impl1.xcf"
+prj_src add -exclude "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/impl1/impl1.xcf"
+prj_src enable "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/impl1/impl1.xcf"
+pgr_project close
+#Stop recording: 11/13/2020 10:13:35

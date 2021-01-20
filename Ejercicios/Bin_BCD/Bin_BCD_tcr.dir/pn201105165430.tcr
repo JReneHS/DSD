@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/5/2020 16:54:21
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Bin_BCD; Project name: Bin_BCD
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Bin_BCD/Bin_BCD.ldf"
+prj_project close
+#Stop recording: 11/5/2020 16:54:30

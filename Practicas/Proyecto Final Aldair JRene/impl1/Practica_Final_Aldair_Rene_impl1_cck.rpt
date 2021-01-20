@@ -1,0 +1,101 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-2I5LM3P
+
+Implementation : impl1
+
+# Written on Wed Jan 20 14:13:27 2021
+
+##### DESIGN INFO #######################################################
+
+Top View:                "pfinal"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                          Ending                            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int0_inferred_clock     osc00|osc_int0_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:clr
+p:col[0]
+p:col[1]
+p:col[2]
+p:col[3]
+p:col[4]
+p:col[5]
+p:col[6]
+p:col[7]
+p:csr
+p:fil[0]
+p:fil[1]
+p:fil[2]
+p:fil[3]
+p:fil[4]
+p:fil[5]
+p:fil[6]
+p:fil[7]
+p:lcdOut[0]
+p:lcdOut[1]
+p:lcdOut[2]
+p:lcdOut[3]
+p:lcdOut[4]
+p:lcdOut[5]
+p:lcdOut[6]
+p:lcdOut[7]
+p:lcdOut[8]
+p:lcdOut[9]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

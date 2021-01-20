@@ -1,0 +1,317 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+             Lattice Mapping Report File for Design Module 'top'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Industrial
+     Teclado_Matriciial_impl1.ngd -o Teclado_Matriciial_impl1_map.ncd -pr
+     Teclado_Matriciial_impl1.prf -mp Teclado_Matriciial_impl1.mrp -lpf
+     D:/Semestre 2-2020/DSD/Practicas/Top Teclado
+     Matricial/impl1/Teclado_Matriciial_impl1_synplify.lpf -lpf D:/Semestre
+     2-2020/DSD/Practicas/Top Teclado Matricial/Teclado_Matriciial.lpf -c 0 -gui
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.3.469
+Mapped on:  11/28/20  20:35:17
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     25 out of  7209 (0%)
+      PFU registers:           25 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        18 out of  3432 (1%)
+      SLICEs as Logic/ROM:     18 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          8 out of  3432 (0%)
+   Number of LUT4s:         35 out of  6864 (1%)
+      Number used as logic LUTs:         19
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       16
+      Number used as shift registers:     0
+   Number of PIO sites used: 16 + 4(JTAG) out of 115 (17%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  4
+     Net clkAnd_i_lo: 2 loads, 2 rising, 0 falling (Driver:
+
+     clkAnd_i_lo_inferred_clock_RNO )
+     Net deb_aux: 2 loads, 0 rising, 2 falling (Driver: cto3/Q )
+     Net osc_aux: 8 loads, 8 rising, 0 falling (Driver: cto4/OSCInst0 )
+     Net q13_aux: 2 loads, 2 rising, 0 falling (Driver: cto5/Qaux[13] )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net CLR_c merged into GSR:  25
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net mod_mux_dec[0]: 9 loads
+     Net mod_mux_dec[1]: 8 loads
+     Net dec_aux[0]: 7 loads
+     Net dec_aux[1]: 7 loads
+     Net dec_aux[2]: 7 loads
+     Net dec_aux[3]: 7 loads
+     Net mod_mux_dec[2]: 4 loads
+     Net mod_mux_dec[3]: 4 loads
+     Net mux_aux: 2 loads
+     Net q11_aux: 2 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: Using local reset signal 'CLR_c' to infer global GSR net.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| col[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLR                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[6]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[5]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[4]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[3]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[2]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[1]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit[0]            | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| col[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| col[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| col[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fil[3]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fil[2]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fil[1]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fil[0]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block cto1/GND undriven or does not drive anything - clipped.
+Block cto2/GND undriven or does not drive anything - clipped.
+Block cto3/GND undriven or does not drive anything - clipped.
+Block cto3/VCC undriven or does not drive anything - clipped.
+Block cto6/VCC undriven or does not drive anything - clipped.
+Block cto8/GND undriven or does not drive anything - clipped.
+Block cto8/VCC undriven or does not drive anything - clipped.
+Signal cto6/CN was merged into signal deb_aux
+Signal cto4/GND undriven or does not drive anything - clipped.
+Signal cto5/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal cto4/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal cto5/Qaux_s_0_S1[13] undriven or does not drive anything - clipped.
+Signal cto5/Qaux_s_0_COUT[13] undriven or does not drive anything - clipped.
+Signal cto5/Qaux_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal cto5/N_1 undriven or does not drive anything - clipped.
+Block cto6/Qaux_0_.CN was optimized away.
+Block cto4/GND was optimized away.
+Block cto5/GND was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                cto4/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     osc_aux
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: cto4/OSCInst0
+         Type: OSCH
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The local reset signal 'CLR_c' of the design has been inferred as Global Set
+        Reset (GSR). The reset signal used for GSR control is 'CLR_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 57 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

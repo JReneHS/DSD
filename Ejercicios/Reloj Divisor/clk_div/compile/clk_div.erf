@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd" 
+MESSAGE "Compile Entity "clk_div"" 
+MESSAGE "Compile Architecture "divisor" of Entity "clk_div"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

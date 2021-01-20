@@ -1,0 +1,64 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\impl1\\synwork\\Practica_Final_Aldair_Rene_impl1_comp.srs|-top|pfinal|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603988322
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604359580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\clk_div_LCD.vhd":1611173589
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\clk_div_pacman.vhd":1611159379
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\dec_3_8.vhd":1611159080
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\LCD.vhd":1611170067
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\oscilador.vhd":1611159110
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\pacman_ROM.vhd":1611159158
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Proyecto Final Aldair JRene\\top_P_Final.vhd":1611167224
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\clk_div_LCD.vhd" vhdl
+2 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\clk_div_pacman.vhd" vhdl
+3 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\dec_3_8.vhd" vhdl
+4 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\LCD.vhd" vhdl
+5 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\oscilador.vhd" vhdl
+6 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\pacman_ROM.vhd" vhdl
+7 "D:\Semestre 2-2020\DSD\Practicas\Proyecto Final Aldair JRene\top_P_Final.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 5 1 4 2 3 6 
+
+# Dependency Lists (Users Of)
+0 -1
+1 7 
+2 7 
+3 7 
+4 7 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work clk_lcd divlcd 1
+module work clk_lcd 1
+arch work clk_pcm divpcm 2
+module work clk_pcm 2
+arch work deco de 3
+module work deco 3
+arch work lcd_1 lcddis 4
+module work lcd_1 4
+arch work osc00 osc0 5
+module work osc00 5
+arch work m_rom mem 6
+module work m_rom 6
+arch work pfinal top 7
+module work pfinal 7

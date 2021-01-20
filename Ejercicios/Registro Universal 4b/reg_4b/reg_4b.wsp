@@ -1,0 +1,13 @@
+[COMPILESTATUS|.\..\reg_u_4b.vhd]
+FileTimeLow=30841730
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\reg_4b.adf|]
+Path=/reg
+
+[Gui config]
+RunFor=100 ns
+

@@ -1,0 +1,12 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\cont_sinc_27412.vhd":3:7:3:14|Synthesizing work.contador.sincrono.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\cont_sinc_27412.vhd":19:16:19:20|Removing redundant assignment.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\cont_sinc_27412.vhd":28:16:28:20|Removing redundant assignment.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\cont_sinc_27412.vhd":37:16:37:20|Removing redundant assignment.
+Post processing for work.contador.sincrono
+Running optimization stage 1 on contador .......
+Running optimization stage 2 on contador .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono 2_7_4_1_2\impl1\synwork\layer0.rt.csv
+

@@ -1,0 +1,73 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 12
+FID:  path (prevtimestamp, timestamp)
+12       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\bin_bcd.vhd (2020-11-13 10:39:22, N/A)
+13       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\clock_div_28.vhd (2020-11-13 10:25:09, N/A)
+16       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\dec_2_4.vhd (2020-11-13 08:57:04, N/A)
+14       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\dec_7_seg.vhd (2020-11-13 08:56:56, N/A)
+15       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\mux11_3.vhd (2020-11-13 09:01:58, N/A)
+17       D:\Semestre 2-2020\DSD\Ejercicios\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (2020-11-13 09:43:45, N/A)
+18       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\bin_bcd.vhd (N/A, 2020-11-13 10:39:22)
+19       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\clock_div_28.vhd (N/A, 2020-11-13 10:25:09)
+20       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_2_4.vhd (N/A, 2020-11-13 08:57:04)
+21       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_7_seg.vhd (N/A, 2020-11-13 08:56:56)
+22       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\mux11_3.vhd (N/A, 2020-11-13 09:01:58)
+23       D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 7
+MID:  lib.cell.view
+0        work.clk_div.divisor may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\clock_div_28.vhd (N/A, 2020-11-13 10:25:09) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+2        work.conv.bin_bcd may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\bin_bcd.vhd (N/A, 2020-11-13 10:39:22) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+10       work.deco.de may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_2_4.vhd (N/A, 2020-11-13 08:57:04) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+4        work.multiplexor.mux may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\mux11_3.vhd (N/A, 2020-11-13 09:01:58) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+6        work.osc00.osc0 may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+8        work.seg.dec may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\dec_7_seg.vhd (N/A, 2020-11-13 08:56:56) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (may instantiate this module)
+12       work.top_bcd.seg may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\top_bin_bcd_7seg.vhd (N/A, 2020-11-13 09:43:45) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 12
+FID:  path (timestamp)
+0        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+1        C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+2        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+3        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+4        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:38:28)
+5        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+11       D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd (2020-10-07 22:21:54)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

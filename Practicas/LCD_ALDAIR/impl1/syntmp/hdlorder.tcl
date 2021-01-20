@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd" "D:/Semestre\ 2-2020/DSD/Practicas/LCD_ALDAIR/impl1/source/clk_div.vhd" "D:/Semestre\ 2-2020/DSD/Practicas/LCD_ALDAIR/impl1/source/memoria.vhd" "D:/Semestre\ 2-2020/DSD/Practicas/LCD_ALDAIR/impl1/source/oscilador.vhd" "D:/Semestre\ 2-2020/DSD/Practicas/LCD_ALDAIR/impl1/source/lcd_top.vhd" 

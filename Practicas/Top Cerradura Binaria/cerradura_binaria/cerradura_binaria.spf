@@ -1,0 +1,11 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="cerradura_binaria" simType="ModelSim">
+    <Source worklib="work" path="clk_div.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="oscilador.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="detector_secuencia.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="eliminador_rebotes_pulso.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="top_det_sec.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="det_sec"/>
+</BaliSimProject>

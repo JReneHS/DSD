@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd":6:7:6:13|Top entity is set to reg_fin.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro 4b Final\reg_4b_top.vhd":6:7:6:13|Synthesizing work.reg_fin.reg_top.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Oscilador\oscilador_ejemplo.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd":6:7:6:9|Synthesizing work.reg.registro.
+@N: CD364 :"D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd":29:18:29:21|Removing redundant assignment.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+@N|Running in 64-bit mode
+

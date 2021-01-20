@@ -1,0 +1,21 @@
+----------------------------------------------------------------------
+Report for cell m_ram.mem_ram
+
+Register bits: 8 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB       12       100.0
+                                OBZ        4       100.0
+                           OFS1P3BX        4       100.0
+                           OFS1P3DX        4       100.0
+                           ORCALUT4       14       100.0
+                              PFUMX        4       100.0
+                                PUR        1       100.0
+                           SPR16X4C        4       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            50           

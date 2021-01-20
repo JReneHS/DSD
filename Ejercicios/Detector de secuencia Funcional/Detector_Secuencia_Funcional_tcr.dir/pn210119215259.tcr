@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/19/2021 21:47:52
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional; Project name: Detector_Secuencia_Funcional
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/Detector_Secuencia_Funcional.ldf"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec/det_sec.spf"
+#Stop recording: 1/19/2021 21:52:59

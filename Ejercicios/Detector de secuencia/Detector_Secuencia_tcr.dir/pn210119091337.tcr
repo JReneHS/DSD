@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/19/2021 08:41:38
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia; Project name: Detector_Secuencia
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia/Detector_Secuencia.ldf"
+prj_project save
+prj_project close
+#Stop recording: 1/19/2021 09:13:37

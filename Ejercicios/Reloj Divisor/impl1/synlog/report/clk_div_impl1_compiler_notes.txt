@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Top entity is set to clk_div.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+@N|Running in 64-bit mode
+

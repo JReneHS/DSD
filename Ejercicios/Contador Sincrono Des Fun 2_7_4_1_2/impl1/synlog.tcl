@@ -1,0 +1,1 @@
+run_tcl -fg Cont_sinc_fun_27412_impl1_synplify.tcl

@@ -1,0 +1,5 @@
+ckid0_0:@|S:cto5.clk_r.OUT@|E:cto5.O_tri_enable@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:cto5.clk_w_1.OUT@|E:cto5.dato[7:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_3:@|S:cto3.Qaux[14:0].Q[14]@|E:cto6.Q3@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
+ckid0_5:@|S:cto1.OSCInst0.OSC@|E:cto3.Qaux[14:0]@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
+ckid0_6:@|S:cto7.ex_mux.OUT[0]@|E:cto2.Qaux[2:0]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6

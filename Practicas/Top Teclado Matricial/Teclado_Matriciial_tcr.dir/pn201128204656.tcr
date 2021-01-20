@@ -1,0 +1,24 @@
+#Start recording tcl command: 11/28/2020 17:31:26
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial; Project name: Teclado_Matriciial
+prj_project new -name "Teclado_Matriciial" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/mux_4_1.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/cont_16.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/decoder_1_4.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/debounce.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/clock_div.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/reg_4b.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg/dec_7_seg.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/Top_Teclado.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/simu/simu.spf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/impl1/impl1.xcf"
+prj_src add -exclude "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/impl1/impl1.xcf"
+prj_src enable "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "D:/Semestre 2-2020/DSD/Practicas/Top Teclado Matricial/impl1/impl1.xcf"
+pgr_project close
+#Stop recording: 11/28/2020 20:46:56

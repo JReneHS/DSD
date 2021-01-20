@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock m_ram|clk_w_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_w_1.
+@W: MT420 |Found inferred clock m_ram|clk_r_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_r.

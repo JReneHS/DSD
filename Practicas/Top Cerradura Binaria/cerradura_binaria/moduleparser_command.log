@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.12/bin/nt64/moduleparser.exe -PROJ cerradura_binaria -pf C:/lscc/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pf C:/lscc/diamond/3.12/cae_library/synthesis/verilog/machxo2.v -pkg C:/lscc/diamond/3.12/cae_library/vhdl_packages/vdbs -lst D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria/source_files.lst

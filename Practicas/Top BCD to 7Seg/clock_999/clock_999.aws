@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+clock_999=clock_999.adf
+[Settings]
+Active=clock_999
+[Expand]
+clock_999=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

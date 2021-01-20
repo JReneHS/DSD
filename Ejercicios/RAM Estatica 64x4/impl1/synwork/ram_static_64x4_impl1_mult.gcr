@@ -1,0 +1,15 @@
+i clk_r_i
+m 0 0
+u 5 5
+n ckid0_0 {t:O_1[3].C} Clock source is invalid for GCC
+p {t:clk_r.OUT}{t:clk_r_inferred_clock.I[0]}{t:clk_r_inferred_clock.OUT[0]}{t:O_1[3].C}
+e ckid0_0 {t:O_1[3].C} dffr
+d ckid0_1 {t:clk_r.OUT} and Unable to find a clock in input cone
+i clk_w_1_i
+m 0 0
+u 1 1
+n ckid0_2 {t:dato[3:0].CLK} Clock source is invalid for GCC
+p {t:clk_w_1.OUT}{t:clk_w_1_inferred_clock.I[0]}{t:clk_w_1_inferred_clock.OUT[0]}{t:dato[3:0].CLK}
+e ckid0_2 {t:dato[3:0].CLK} ram1
+d ckid0_3 {t:clk_w_1.OUT} and Unable to find a clock in input cone
+l 0 0 0 0 0

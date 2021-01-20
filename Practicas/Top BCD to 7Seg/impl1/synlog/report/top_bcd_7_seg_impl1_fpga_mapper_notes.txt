@@ -1,0 +1,12 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO106 :"d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\dec_7_seg.vhd":17:2:17:5|Found ROM cto5.s_1[6:0] (in view: work.top_bcd(seg)) with 16 words by 7 bits.
+@N: MO231 :"d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\clock_div_28.vhd":24:4:24:5|Found counter in view:work.top_bcd(seg) instance cto1.Qaux[28:0] 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\Semestre 2-2020\DSD\Practicas\Top BCD to 7Seg\impl1\top_bcd_7_seg_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

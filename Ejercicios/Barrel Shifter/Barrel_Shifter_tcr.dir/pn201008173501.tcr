@@ -1,0 +1,9 @@
+#Start recording tcl command: 10/8/2020 16:50:08
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Barrel Shifter; Project name: Barrel_Shifter
+prj_project new -name "Barrel_Shifter" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Barrel Shifter/barrel_shifter.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_project save
+prj_project close
+#Stop recording: 10/8/2020 17:35:01

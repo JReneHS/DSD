@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+reg_4b=reg_4b.adf
+[Settings]
+Active=reg_4b
+[Expand]
+reg_4b=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

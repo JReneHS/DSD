@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1606617333"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1606617318">
+            <Task name="Map" build_result="2" update_result="0" update_time="1606617318"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1606617326">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1606617326"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1606617327"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1606614528">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1606614528"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1606790434"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1606615075">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1606615075"/>
+        </Milestone>
+        <Report name="Teclado_Matriciial_impl1.bgn" last_build_time="1606617333" last_build_size="4351"/>
+        <Report name="Teclado_Matriciial_impl1.edi" last_build_time="1606614521" last_build_size="49895"/>
+        <Report name="Teclado_Matriciial_impl1.jed" last_build_time="1606617333" last_build_size="1464922"/>
+        <Report name="Teclado_Matriciial_impl1.ncd" last_build_time="1606617326" last_build_size="43426"/>
+        <Report name="Teclado_Matriciial_impl1.ngd" last_build_time="1606615075" last_build_size="46991"/>
+        <Report name="Teclado_Matriciial_impl1.twr" last_build_time="1606617327" last_build_size="50719"/>
+        <Report name="Teclado_Matriciial_impl1_map.ncd" last_build_time="1606617318" last_build_size="32336"/>
+    </Strategy>
+</BuildStatus>

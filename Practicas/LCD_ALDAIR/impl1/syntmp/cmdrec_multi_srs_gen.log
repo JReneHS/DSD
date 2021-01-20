@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  lcd_final  -multisrs  "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synwork\lcd_aldair_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synwork\lcd_aldair_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synlog\lcd_aldair_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top lcd_final -multisrs "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synwork\lcd_aldair_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synwork\lcd_aldair_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Practicas\LCD_ALDAIR\impl1\synlog\lcd_aldair_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\lcd_aldair_impl1_comp.srs|io:i|time:1611124655|size:4682|exec:0|csum:6A6E9CA48C56336FC849BC232E1F38DE
+file:..\synwork\lcd_aldair_impl1_mult.srs|io:o|time:1611124657|size:2479|exec:0|csum:
+file:..\synlog\lcd_aldair_impl1_multi_srs_gen.srr|io:o|time:1611124657|size:1153|exec:0|csum:
+file:C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603988322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

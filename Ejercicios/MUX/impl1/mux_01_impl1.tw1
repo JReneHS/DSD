@@ -1,0 +1,101 @@
+
+Loading design for application trce from file mux_01_impl1_map.ncd.
+Design name: multiplexor
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.3.469
+Mon Oct 05 14:11:52 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o mux_01_impl1.tw1 -gui mux_01_impl1_map.ncd mux_01_impl1.prf 
+Design file:     mux_01_impl1_map.ncd
+Preference file: mux_01_impl1.prf
+Device,speed:    LCMXO2-7000HE,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: Default path enumeration
+            7 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    8.009ns delay I[0] to ex_mux
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372       I[0].PAD to     I[0].PADDI I[0]
+ROUTE         1   e 1.234     I[0].PADDI to *_3/SLICE_0.A0 I_c[0]
+CTOOFX_DEL  ---     0.721 *_3/SLICE_0.A0 to */SLICE_0.OFX0 ex_mux_3/SLICE_0
+ROUTE         1   e 1.234 */SLICE_0.OFX0 to   ex_mux.PADDO ex_mux_c
+DOPAD_DEL   ---     3.448   ex_mux.PADDO to     ex_mux.PAD ex_mux
+                  --------
+                    8.009   (69.2% logic, 30.8% route), 3 logic levels.
+
+Report:    8.009ns is the maximum delay for this preference.
+
+
+================================================================================
+Preference: Default net enumeration
+            7 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    1.234ns maximum delay on I_c[2]
+
+           Delays             Connection(s)
+         e 1.234ns       I[2].PADDI to ex_mux_3/SLICE_0.B0
+
+Report:    1.234ns is the maximum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|     8.009 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     1.234 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 0 clocks:
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 7 paths, 7 nets, and 8 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+

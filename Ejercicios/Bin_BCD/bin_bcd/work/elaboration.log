@@ -1,0 +1,35 @@
+Active-HDL 10.5.216.6767 2020-10-28 17:01:22
+
+Elaboration top modules:
+Architecture                  bin_bcd(conv)
+
+
+-----------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+conv     | bin_bcd      | work    |      | 10.5.216.6767 (Windows) | -dbg
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+standard                | std     |      |                         | <unavailable>
+TEXTIO                  | std     |      |                         | <unavailable>
+std_logic_1164          | ieee    |      |                         | <unavailable>
+std_logic_arith         | ieee    |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+work                    | None
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r conv -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

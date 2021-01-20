@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/9/2020 09:58:05
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg; Project name: top_bcd_7_seg
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/top_bcd_7_seg.ldf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/clock_999/clock_999.spf"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/dec_2_4.vhd"
+#Stop recording: 11/9/2020 11:33:34

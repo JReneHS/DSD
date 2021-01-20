@@ -1,0 +1,24 @@
+timestamp=1601948853747
+
+[~A]
+ModifyID=1
+Version=74
+
+[reg]
+A/registro=21|./../../reg_u_4b.vhd|15|1*0
+BinI32/registro=3*0
+I=0*637
+I/registro=0*1383
+M=11|0|vde|1601948853613|./../../reg_u_4b.vhd|0*221*0xb0144b8963abbc1d3eee2dc1caa7986b03c858d5|0*560*0x23b75c12e3e89f2ef000564498faa8c2
+M/registro=21|0|vde|1601948853662|./../../reg_u_4b.vhd|0*834*0x135617e329b08b0b41334e71a725ed8bc9f30db7|0*1294*0x9065d32a2e40e13794b29a2731812845
+R=./../../reg_u_4b.vhd|6
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|2f1e3c7d0bba65891d8ae1d559ceb6dd2890d37821496f960530f9c1d0eb86da
+Version/registro=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|1468082ca277dc0bbabd1194a4f402e13de928612a4f300a0130f3a4cd5eb21ffff51370a38711813535cbee3f4633b6
+
+[~MFT]
+0=7|0work.mgf|1383|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+reg=11|0*0|

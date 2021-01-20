@@ -1,0 +1,50 @@
+Active-HDL 10.5.216.6767 2020-11-28 19:57:14
+
+Elaboration top modules:
+Architecture                  tec(top)
+
+
+----------------------------------------------------------------------------------------------
+Entity   | Architecture | Library     | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------
+top      | tec          | work        |      | 10.5.216.6767 (Windows) | -dbg
+multi    | mux          | work        |      | 10.5.216.6767 (Windows) | -dbg
+decoder  | dec          | work        |      | 10.5.216.6767 (Windows) | -dbg
+deb      | noreb        | work        |      | 10.5.216.6767 (Windows) | -dbg
+osc00    | osc0         | work        |      | 10.5.216.6767 (Windows) | -dbg
+clk_div  | divisor      | work        |      | 10.5.216.6767 (Windows) | -dbg
+reg      | registro     | work        |      | 10.5.216.6767 (Windows) | -dbg
+seg      | dec          | work        |      | 10.5.216.6767 (Windows) | -dbg
+cont     | sinc_fun     | work        |      | 10.5.216.6767 (Windows) | -dbg
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------
+OSCH                    | ovi_machxo2 |      | 10.5.216.6767 (Windows) | -vendor lattice -v2k
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+VHDL Package            | Library     | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------
+standard                | std         |      |                         | <unavailable>
+TEXTIO                  | std         |      |                         | <unavailable>
+std_logic_1164          | ieee        |      |                         | <unavailable>
+std_logic_arith         | ieee        |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee        |      |                         | <unavailable>
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+ovi_machxo2             | LATTICE Diamond 3.11, MACHXO2 VERILOG LIBRARY
+std                     | Standard VHDL library
+work                    | None
+----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r top -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

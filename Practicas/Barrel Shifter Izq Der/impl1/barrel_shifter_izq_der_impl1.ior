@@ -1,0 +1,51 @@
+Loading design for application iotiming from file barrel_shifter_izq_der_impl1.ncd.
+Design name: barrel_izq_der
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file barrel_shifter_izq_der_impl1.ncd.
+Design name: barrel_izq_der
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file barrel_shifter_izq_der_impl1.ncd.
+Design name: barrel_izq_der
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: barrel_izq_der
+// Package: TQFP144
+// ncd File: barrel_shifter_izq_der_impl1.ncd
+// Version: Diamond (64-bit) 3.11.3.469
+// Written on Sat Oct 10 23:43:27 2020
+// M: Minimum Performance Grade
+// iotiming Barrel_Shifter_Izq_Der_impl1.ncd Barrel_Shifter_Izq_Der_impl1.prf -gui -msgset D:/Semestre 2-2020/DSD/Practicas/Barrel Shifter Izq Der/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)

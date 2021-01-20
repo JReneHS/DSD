@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell contador.sincrono
+
+Register bits: 3 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        3       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                                INV        1       100.0
+                                 OB        3       100.0
+                           ORCALUT4        2       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            15           

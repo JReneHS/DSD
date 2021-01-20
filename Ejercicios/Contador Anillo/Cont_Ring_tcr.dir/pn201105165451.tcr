@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/5/2020 16:54:30
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Contador Anillo; Project name: Cont_Ring
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Contador Anillo/Cont_Ring.ldf"
+prj_project close
+#Stop recording: 11/5/2020 16:54:51

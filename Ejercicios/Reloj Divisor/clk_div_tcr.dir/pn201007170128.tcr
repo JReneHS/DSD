@@ -1,0 +1,11 @@
+#Start recording tcl command: 10/7/2020 16:44:07
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor; Project name: clk_div
+prj_project new -name "clk_div" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor/clk_div.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor/clk_div/clk_div.spf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor/clk_div/clk_div.spf"
+prj_project save
+prj_project close
+#Stop recording: 10/7/2020 17:01:28

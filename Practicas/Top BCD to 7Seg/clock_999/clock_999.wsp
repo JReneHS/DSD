@@ -1,0 +1,29 @@
+[COMPILESTATUS|.\..\clock_div_28.vhd]
+FileTimeLow=30848689
+Status=Compiled
+
+[COMPILESTATUS|.\..\..\Oscilador\oscilador_ejemplo.vhd]
+FileTimeLow=30842146
+Status=Warning
+
+[COMPILESTATUS|.\..\bin_bcd.vhd]
+FileTimeLow=30848598
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\clock_999.adf|]
+Path=/clk_div
+
+[Gui config]
+RunFor=100000000 ns
+
+[COMPILESTATUS|.\..\mux11_3.vhd]
+FileTimeLow=30848600
+Status=Compiled
+
+[COMPILESTATUS|.\..\dec_7_seg.vhd]
+FileTimeLow=30848603
+Status=Compiled
+

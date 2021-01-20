@@ -1,0 +1,11 @@
+#Start recording tcl command: 11/8/2020 22:55:58
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg; Project name: top_bcd_7_seg
+prj_project new -name "top_bcd_7_seg" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/clock_div_28.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/bin_bcd.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/clock_999/clock_999.spf"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/mux11_3.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Top BCD to 7Seg/dec_7_seg.vhd"
+#Stop recording: 11/8/2020 23:46:23

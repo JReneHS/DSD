@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\ejercicios\reloj divisor\clk_div.vhd":19:4:19:5|Found inferred clock clk_div|clk which controls 19 sequential elements including Qaux[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

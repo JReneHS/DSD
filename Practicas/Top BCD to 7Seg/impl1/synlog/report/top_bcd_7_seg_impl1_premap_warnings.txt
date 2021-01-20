@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\clock_div_28.vhd":24:4:24:5|Found inferred clock osc00|osc_int0_inferred_clock which controls 29 sequential elements including cto1.Qaux[28:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

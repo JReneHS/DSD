@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/7/2020 18:24:48
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Oscilador; Project name: oscilador_ejemplo
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.ldf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_project save
+prj_project close
+#Stop recording: 10/7/2020 22:24:07

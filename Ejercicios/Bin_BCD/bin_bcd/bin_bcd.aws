@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+bin_bcd=bin_bcd.adf
+[Settings]
+Active=bin_bcd
+[Expand]
+bin_bcd=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

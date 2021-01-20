@@ -1,0 +1,53 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+
+# Written on Sat Nov 28 19:48:35 2020
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                Requested     Requested     Clock                                            Clock                   Clock
+Level     Clock                                Frequency     Period        Type                                             Group                   Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int0_inferred_clock        2.1 MHz       480.769       inferred                                         Inferred_clkgroup_0     14   
+1 .         clk_div|Qaux_derived_clock[13]     2.1 MHz       480.769       derived (from osc00|osc_int0_inferred_clock)     Inferred_clkgroup_0     3    
+                                                                                                                                                         
+0 -       deb|Q_inferred_clock                 100.0 MHz     10.000        inferred                                         Inferred_clkgroup_2     4    
+=========================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                   Clock     Source                          Clock Pin             Non-clock Pin     Non-clock Pin         
+Clock                              Load      Pin                             Seq Example           Seq Example       Comb Example          
+-------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int0_inferred_clock      14        cto4.OSCInst0.OSC(OSCH)         cto5.Qaux[13:0].C     -                 -                     
+clk_div|Qaux_derived_clock[13]     3         cto5.Qaux[13:0].Q[13](dffr)     cto3.Q1.C             -                 -                     
+                                                                                                                                           
+deb|Q_inferred_clock               4         cto3.Q.OUT(and)                 cto6.Qaux[3:0].C      -                 cto6.un1_clk.I[0](inv)
+===========================================================================================================================================

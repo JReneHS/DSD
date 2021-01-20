@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+Report for cell lcd_final.lcd
+
+Register bits: 24 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1S3DX       24       100.0
+                                GSR        1       100.0
+                                 IB        1       100.0
+                                 OB       10       100.0
+                           ORCALUT4        1       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                           ROM32X1A        1       100.0
+                           ROM64X1A        9       100.0
+                                VHI        2       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                            clk_div        1       100.0
+                          memoria_1        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            71           
+----------------------------------------------------------------------
+Report for cell memoria_1.netlist
+     Instance path:  cto3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1       100.0
+                           ROM32X1A        1       100.0
+                           ROM64X1A        9       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL            12           
+----------------------------------------------------------------------
+Report for cell clk_div.netlist
+     Instance path:  cto2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1S3DX       24       100.0
+                                VHI        1        50.0
+                                VLO        1        25.0
+                            
+                         TOTAL            39           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  cto1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL             2           

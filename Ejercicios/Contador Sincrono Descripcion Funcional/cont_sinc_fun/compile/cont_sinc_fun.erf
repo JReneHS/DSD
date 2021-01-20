@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Contador Sincrono Descripcion Funcional\cont_sinc_fun.vhd" 
+MESSAGE "Compile Entity "cont"" 
+MESSAGE "Compile Architecture "sinc_fun" of Entity "cont"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

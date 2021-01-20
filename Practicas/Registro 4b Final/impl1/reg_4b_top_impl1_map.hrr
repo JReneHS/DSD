@@ -1,0 +1,36 @@
+---------------------------------------------------
+Report for cell reg_fin
+   Instance path: reg_fin
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00        100.0
+                                  LUT4	       9.00        100.0
+                                 IOBUF	         13        100.0
+                                PFUREG	         24        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   reg	          1        31.3
+                                 osc00	          1         0.0
+                               clk_div	          1        68.8
+---------------------------------------------------
+Report for cell osc00
+   Instance path: reg_fin/cto3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell reg
+   Instance path: reg_fin/cto2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00        31.3
+                                  LUT4	       9.00        100.0
+                                PFUREG	          4        16.7
+---------------------------------------------------
+Report for cell clk_div
+   Instance path: reg_fin/cto1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00        68.8
+                                PFUREG	         20        83.3
+                                RIPPLE	         11        100.0

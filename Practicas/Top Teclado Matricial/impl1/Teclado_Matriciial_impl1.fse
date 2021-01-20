@@ -1,0 +1,36 @@
+
+fsm_encoding {10163161} sequential
+
+fsm_state_encoding {10163161} 0000 {0000}
+
+fsm_state_encoding {10163161} 0001 {0001}
+
+fsm_state_encoding {10163161} 0010 {0010}
+
+fsm_state_encoding {10163161} 0011 {0011}
+
+fsm_state_encoding {10163161} 0100 {0100}
+
+fsm_state_encoding {10163161} 0101 {0101}
+
+fsm_state_encoding {10163161} 0110 {0110}
+
+fsm_state_encoding {10163161} 0111 {0111}
+
+fsm_state_encoding {10163161} 1000 {1000}
+
+fsm_state_encoding {10163161} 1001 {1001}
+
+fsm_state_encoding {10163161} 1010 {1010}
+
+fsm_state_encoding {10163161} 1011 {1011}
+
+fsm_state_encoding {10163161} 1100 {1100}
+
+fsm_state_encoding {10163161} 1101 {1101}
+
+fsm_state_encoding {10163161} 1110 {1110}
+
+fsm_state_encoding {10163161} 1111 {1111}
+
+fsm_registers {10163161} {Qaux[3]}  {Qaux[2]}  {Qaux[1]}  {Qaux[0]} 

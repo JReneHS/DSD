@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/18/2021 23:32:45
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia; Project name: Detector_Secuencia
+prj_project new -name "Detector_Secuencia" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 1/18/2021 23:32:53

@@ -1,0 +1,26 @@
+V 000048 55 876           1603926081820 bin_bcd
+(_unit VHDL(conv 0 5(bin_bcd 0 12))
+	(_version vde)
+	(_time 1603926081821 2020.10.28 17:01:21)
+	(_source(\./../../bin_BCD.vhd\))
+	(_parameters dbg tan)
+	(_code 434448411614425447465019444516444545404515)
+	(_coverage d)
+	(_ent
+		(_time 1603926081800)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{7~downto~0}~12 0 7(_array -1((_dto i 7 i 0)))))
+		(_port(_int I 0 0 7(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~12 0 8(_array -1((_dto i 9 i 0)))))
+		(_port(_int S 1 0 8(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{17~downto~0}~13 0 15(_array -1((_dto i 17 i 0)))))
+		(_var(_int x 2 0 15(_prcs 0)))
+		(_prcs
+			(line__14(_arch 0 0 14(_prcs(_simple)(_trgt(1))(_sens(0)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED)))
+	(_model . bin_bcd 1 -1)
+)

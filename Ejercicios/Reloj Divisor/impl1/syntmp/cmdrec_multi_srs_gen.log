@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  clk_div  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synwork\clk_div_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synwork\clk_div_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synlog\clk_div_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top clk_div -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synwork\clk_div_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synwork\clk_div_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synlog\clk_div_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\clk_div_impl1_comp.srs|io:i|time:1602107688|size:1901|exec:0|csum:014053E680AEBABA63FC97ECD6BC337C
+file:..\synwork\clk_div_impl1_mult.srs|io:o|time:1602107691|size:1609|exec:0|csum:
+file:..\synlog\clk_div_impl1_multi_srs_gen.srr|io:o|time:1602107691|size:1042|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

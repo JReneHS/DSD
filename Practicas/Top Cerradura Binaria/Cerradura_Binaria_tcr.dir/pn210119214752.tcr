@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/19/2021 20:44:07
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria; Project name: Cerradura_Binaria
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/Cerradura_Binaria.ldf"
+prj_src remove "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/moore_det_sec_fun.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria/cerradura_binaria.spf"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria/cerradura_binaria.spf"
+prj_project save
+prj_project close
+#Stop recording: 1/19/2021 21:47:52

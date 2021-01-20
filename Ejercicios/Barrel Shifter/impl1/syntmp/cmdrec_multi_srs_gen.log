@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  barrel  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synwork\Barrel_Shifter_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synwork\Barrel_Shifter_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synlog\Barrel_Shifter_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top barrel -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synwork\Barrel_Shifter_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synwork\Barrel_Shifter_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synlog\Barrel_Shifter_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\Barrel_Shifter_impl1_comp.srs|io:i|time:1602194790|size:2053|exec:0|csum:68770C800638728703E6CD5B4AD3C02E
+file:..\synwork\Barrel_Shifter_impl1_mult.srs|io:o|time:1602194792|size:1832|exec:0|csum:
+file:..\synlog\Barrel_Shifter_impl1_multi_srs_gen.srr|io:o|time:1602194793|size:1043|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

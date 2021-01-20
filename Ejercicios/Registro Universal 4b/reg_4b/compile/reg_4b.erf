@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Registro Universal 4b\reg_u_4b.vhd" 
+MESSAGE "Compile Entity "reg"" 
+MESSAGE "Compile Architecture "registro" of Entity "reg"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter Izq Der\barrel_shifter_izq_der.vhd" 
+MESSAGE "Compile Entity "barrel_izq_der"" 
+MESSAGE "Compile Architecture "shifter" of Entity "barrel_izq_der"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

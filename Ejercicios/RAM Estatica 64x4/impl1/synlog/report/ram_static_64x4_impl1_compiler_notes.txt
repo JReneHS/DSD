@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":5:7:5:11|Top entity is set to m_ram.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":5:7:5:11|Synthesizing work.m_ram.mem_ram.
+@N: CL134 :"D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd":16:8:16:11|Found RAM dato, depth=64, width=4
+@N|Running in 64-bit mode
+

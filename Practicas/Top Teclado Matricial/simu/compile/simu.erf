@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd" 
+MESSAGE "Compile Entity "top"" 
+MESSAGE "Compile Architecture "tec" of Entity "top"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]" 

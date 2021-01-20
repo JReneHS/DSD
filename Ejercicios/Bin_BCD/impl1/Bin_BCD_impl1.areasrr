@@ -1,0 +1,18 @@
+----------------------------------------------------------------------
+Report for cell conv.bin_bcd
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                 OB       10       100.0
+                           ORCALUT4       25       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            48           

@@ -1,0 +1,66 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VE269NP
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+11       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\E_Rebotes.vhd (2020-12-07 10:46:14, 2020-12-07 11:00:20)
+17       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 8
+MID:  lib.cell.view
+14       work.clk_deb.divisor may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+0        work.clk_div.divisor may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+2        work.deb.noreb may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\E_Rebotes.vhd (2020-12-07 10:46:14, 2020-12-07 11:00:20) <-- (architecture and entity definition)
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+4        work.deco.de may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+6        work.m_ram.mem_ram may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+8        work.multiplexor.mux may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+10       work.osc00.osc0 may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (may instantiate this module)
+12       work.top.tram may have changed because the following files changed:
+                        D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd (2020-12-07 09:54:05, 2020-12-07 10:59:15) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 17
+FID:  path (timestamp)
+0        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+1        C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+2        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+3        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+4        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:38:28)
+5        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+18       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_deb.vhd (2020-12-07 10:33:23)
+12       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_div.vhd (2020-12-07 10:32:40)
+13       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\dec_3_8.vhd (2020-12-06 23:56:34)
+14       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\mux_2_1.vhd (2020-12-07 00:11:15)
+15       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\oscilador.vhd (2020-12-07 00:04:19)
+16       D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd (2020-12-07 09:31:05)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

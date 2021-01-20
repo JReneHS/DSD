@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter Izq Der\barrel_shifter_izq_der.vhd":3:7:3:20|Top entity is set to barrel_izq_der.
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter Izq Der\barrel_shifter_izq_der.vhd":3:7:3:20|Synthesizing work.barrel_izq_der.shifter.
+@N|Running in 64-bit mode
+

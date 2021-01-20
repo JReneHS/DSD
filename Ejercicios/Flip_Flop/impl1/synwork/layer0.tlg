@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Flip_Flop\Flip_Flop.vhd":3:8:3:11|Synthesizing work.flip.flop.
+Post processing for work.flip.flop
+Running optimization stage 1 on flip .......
+Running optimization stage 2 on flip .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Flip_Flop\impl1\synwork\layer0.rt.csv
+

@@ -1,0 +1,24 @@
+timestamp=1601917986858
+
+[~A]
+ModifyID=1
+Version=74
+
+[flip]
+A/flop=21|./../../Flip_Flop.vhd|8|1*0
+BinI32/flop=3*0
+I=0*472
+I/flop=0*1032
+M=11|0|vde|1601917986708|./../../Flip_Flop.vhd|0*183*0xf2fed4c99f2d376a4380d74b8fcac7d6e2a5511d|0*393*0x23b75c12e3e89f2ef000564498faa8c2
+M/flop=21|0|vde|1601917986721|./../../Flip_Flop.vhd|0*670*0x5f434f6875fd04a8ff8b7a4d330003c750d97073|0*945*0x9065d32a2e40e13794b29a2731812845
+R=./../../Flip_Flop.vhd|3
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|67323c660967235f8b35158a4493bf068a9d74c5c627594923d4a05cd3f45f6f
+Version/flop=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|0ca17c272be44b6265f55658ef24734838194c5b31f2500bc5bc59c381d2ca71
+
+[~MFT]
+0=7|0work.mgf|1032|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+flip=11|0*0|

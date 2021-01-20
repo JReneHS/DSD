@@ -1,0 +1,11 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="clock_999" simType="Active-HDL">
+    <Source worklib="work" path="clock_div_28.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../Oscilador/oscilador_ejemplo.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="bin_bcd.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="mux11_3.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="dec_7_seg.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="clk_div"/>
+</BaliSimProject>

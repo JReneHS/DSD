@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/13/2020 14:05:50
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg; Project name: top_bcd_7_seg
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Top BCD to 7Seg/top_bcd_7_seg.ldf"
+prj_src remove "D:/Semestre 2-2020/DSD/Practicas/Oscilador/oscilador_ejemplo.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 11/13/2020 16:30:13

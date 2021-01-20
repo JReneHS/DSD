@@ -1,0 +1,77 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00        100.0
+                                  LUT4	      19.00        100.0
+                                 IOBUF	         16        100.0
+                                PFUREG	         25        100.0
+                                RIPPLE	          8        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   seg	          1        15.3
+                                   reg	          1         6.5
+                                 osc00	          1         0.0
+                                 multi	          1         4.2
+                                   deb	          1         6.0
+                               decoder	          1        11.1
+                                  cont	          1        11.1
+                               clk_div	          1        44.4
+---------------------------------------------------
+Report for cell cont
+   Instance path: top/cto8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        11.1
+                                  LUT4	       4.00        21.1
+                                PFUREG	          4        16.0
+---------------------------------------------------
+Report for cell seg
+   Instance path: top/cto7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.75        15.3
+                                  LUT4	       7.00        36.8
+---------------------------------------------------
+Report for cell reg
+   Instance path: top/cto6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         6.5
+                                PFUREG	          4        16.0
+---------------------------------------------------
+Report for cell clk_div
+   Instance path: top/cto5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        44.4
+                                PFUREG	         14        56.0
+                                RIPPLE	          8        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: top/cto4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell deb
+   Instance path: top/cto3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.08         6.0
+                                  LUT4	       1.00         5.3
+                                PFUREG	          3        12.0
+---------------------------------------------------
+Report for cell decoder
+   Instance path: top/cto2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        11.1
+                                  LUT4	       4.00        21.1
+---------------------------------------------------
+Report for cell multi
+   Instance path: top/cto1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         4.2
+                                  LUT4	       2.00        10.5

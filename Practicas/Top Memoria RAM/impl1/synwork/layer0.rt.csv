@@ -1,0 +1,10 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     72 MB
+work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     72 MB
+work, Entity: clk_div Architecture: divisor, 0h:00m:00s,     72 MB
+work, Entity: clk_deb Architecture: divisor, 0h:00m:00s,     72 MB
+work, Entity: deco Architecture: de, 0h:00m:00s,     72 MB
+work, Entity: m_ram Architecture: mem_ram, 0h:00m:00s,     72 MB
+work, Entity: deb Architecture: noreb, 0h:00m:00s,     72 MB
+work, Entity: multiplexor Architecture: mux, 0h:00m:00s,     72 MB
+work, Entity: top Architecture: tram, 0h:00m:00s,     72 MB

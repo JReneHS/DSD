@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/5/2020 13:39:37
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/MUX; Project name: mux_01
+prj_project new -name "mux_01" -impl "impl1" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/MUX/mux.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/MUX/mux/mux.spf"
+prj_run Map -impl impl1 -task MapTrace
+#Stop recording: 10/5/2020 14:52:19

@@ -1,0 +1,36 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Jan 20 14:26:04 2021 *
+NOTE DESIGN NAME: pfinal *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS col[0] : 113 : out *
+NOTE PINS fil[0] : 77 : out *
+NOTE PINS clr : 109 : in *
+NOTE PINS lcdOut[9] : 143 : out *
+NOTE PINS lcdOut[8] : 142 : out *
+NOTE PINS lcdOut[7] : 127 : out *
+NOTE PINS lcdOut[6] : 128 : out *
+NOTE PINS lcdOut[5] : 132 : out *
+NOTE PINS lcdOut[4] : 133 : out *
+NOTE PINS lcdOut[3] : 138 : out *
+NOTE PINS lcdOut[2] : 139 : out *
+NOTE PINS lcdOut[1] : 140 : out *
+NOTE PINS lcdOut[0] : 141 : out *
+NOTE PINS col[7] : 122 : out *
+NOTE PINS col[6] : 121 : out *
+NOTE PINS col[5] : 120 : out *
+NOTE PINS col[4] : 119 : out *
+NOTE PINS col[3] : 117 : out *
+NOTE PINS col[2] : 115 : out *
+NOTE PINS col[1] : 114 : out *
+NOTE PINS fil[7] : 86 : out *
+NOTE PINS fil[6] : 85 : out *
+NOTE PINS fil[5] : 84 : out *
+NOTE PINS fil[4] : 83 : out *
+NOTE PINS fil[3] : 82 : out *
+NOTE PINS fil[2] : 81 : out *
+NOTE PINS fil[1] : 78 : out *
+NOTE PINS csr : 110 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

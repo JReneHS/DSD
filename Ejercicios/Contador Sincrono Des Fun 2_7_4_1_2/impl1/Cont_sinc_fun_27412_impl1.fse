@@ -1,0 +1,14 @@
+
+fsm_encoding {9163161} sequential
+
+fsm_state_encoding {9163161} 000 {000}
+
+fsm_state_encoding {9163161} 001 {001}
+
+fsm_state_encoding {9163161} 010 {010}
+
+fsm_state_encoding {9163161} 100 {011}
+
+fsm_state_encoding {9163161} 111 {100}
+
+fsm_registers {9163161} {Qaux[2]}  {Qaux[1]}  {Qaux[0]} 

@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\ejercicios\registro universal 4b\reg_u_4b.vhd":21:3:21:4|Found inferred clock reg|clk which controls 4 sequential elements including Qaux[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

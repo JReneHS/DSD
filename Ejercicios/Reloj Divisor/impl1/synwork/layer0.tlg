@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\clk_div.vhd":7:7:7:13|Synthesizing work.clk_div.divisor.
+Post processing for work.clk_div.divisor
+Running optimization stage 1 on clk_div .......
+Running optimization stage 2 on clk_div .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Reloj Divisor\impl1\synwork\layer0.rt.csv
+

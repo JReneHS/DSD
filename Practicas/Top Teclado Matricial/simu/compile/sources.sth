@@ -1,0 +1,19 @@
+[Files List]
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/arith_p.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/arith_b.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/unsigned_p.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ieee/src/unsigned_b.vhd=S
+C:\lscc\diamond\3.11_x64\active-hdl\vlib\ovi_machxo2/src/OSCH.v=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/cont_16.vhd=S
+D:\Semestre 2-2020\DSD\Practicas/Top BCD to 7Seg/dec_7_seg.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/reg_4b.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/clock_div.vhd=S
+D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/debounce.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/decoder_1_4.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/mux_4_1.vhd=S
+D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial/Top_Teclado.vhd=S

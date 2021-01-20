@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLR_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clkAnd_i_lo loads=2 clock_loads=2
+   Signal=deb_aux loads=2 clock_loads=2
+   Signal=q13_aux loads=3 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clkAnd_i_lo loads=2 clock_loads=2
+   Signal=deb_aux loads=2 clock_loads=2
+   Signal=q13_aux loads=3 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>cto4/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>cto4/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd&quot;:74:8:74:14|Signal mod_aux is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Practicas\Top Teclado Matricial\Top_Teclado.vhd</Navigation>
+            <Navigation>74</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>74</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Signal mod_aux is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;d:\semestre 2-2020\dsd\practicas\top teclado matricial\cont_16.vhd&quot;:16:3:16:4|Found signal identified as System clock which controls 4 sequential elements including cto8.Qaux[3].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\practicas\top teclado matricial\cont_16.vhd</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Found signal identified as System clock which controls 4 sequential elements including cto8.Qaux[3].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\semestre 2-2020\dsd\practicas\top teclado matricial\clock_div.vhd&quot;:19:4:19:5|Found inferred clock osc00|osc_int0_inferred_clock which controls 14 sequential elements including cto5.Qaux[13:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\practicas\top teclado matricial\clock_div.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int0_inferred_clock which controls 14 sequential elements including cto5.Qaux[13:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\semestre 2-2020\dsd\practicas\top teclado matricial\reg_4b.vhd&quot;:17:2:17:3|Found inferred clock deb|Q_inferred_clock which controls 4 sequential elements including cto6.Qaux[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\practicas\top teclado matricial\reg_4b.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock deb|Q_inferred_clock which controls 4 sequential elements including cto6.Qaux[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\dec_7_seg.vhd&quot;:17:2:17:5|ROM cto7.s_1[6:0] (in view: work.top(tec)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\dec_7_seg.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM cto7.s_1[6:0] (in view: work.top(tec)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\dec_7_seg.vhd&quot;:17:2:17:5|ROM cto7.s_1[6:0] (in view: work.top(tec)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\practicas\top bcd to 7seg\dec_7_seg.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM cto7.s_1[6:0] (in view: work.top(tec)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int0_inferred_clock with period 480.77ns. Please declare a user-defined clock on net cto4.osc_aux.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int0_inferred_clock with period 480.77ns. Please declare a user-defined clock on net cto4.osc_aux.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock deb|Q_inferred_clock with period 10.00ns. Please declare a user-defined clock on net cto3.deb_aux.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock deb|Q_inferred_clock with period 10.00ns. Please declare a user-defined clock on net cto3.deb_aux.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock top|clkAnd_i_lo_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clkAnd_i_lo.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock top|clkAnd_i_lo_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clkAnd_i_lo.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

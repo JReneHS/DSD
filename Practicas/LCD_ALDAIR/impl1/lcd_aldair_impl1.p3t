@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "lcd_aldair_impl1.log"
+-o "lcd_aldair_impl1.csv"
+-pr "lcd_aldair_impl1.prf"

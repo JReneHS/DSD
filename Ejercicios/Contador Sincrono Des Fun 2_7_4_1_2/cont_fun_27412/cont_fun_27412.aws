@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+cont_fun_27412=cont_fun_27412.adf
+[Settings]
+Active=cont_fun_27412
+[Expand]
+cont_fun_27412=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

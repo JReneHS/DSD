@@ -1,0 +1,74 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\impl1\\synwork\\Memoria_RAM_impl1_comp.srs|-top|top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554128468
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554154708
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\clk_div.vhd":1607358760
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1554127688
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\dec_3_8.vhd":1607320594
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\ram_8x8.vhd":1607355065
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\E_Rebotes.vhd":1607360420
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\mux_2_1.vhd":1607321475
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\oscilador.vhd":1607321059
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\clk_deb.vhd":1607358803
+#CUR:"D:\\Semestre 2-2020\\DSD\\Practicas\\Top Memoria RAM\\top_RAM.vhd":1607360355
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_div.vhd" vhdl
+2 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\dec_3_8.vhd" vhdl
+3 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\ram_8x8.vhd" vhdl
+4 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\E_Rebotes.vhd" vhdl
+5 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\mux_2_1.vhd" vhdl
+6 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\oscilador.vhd" vhdl
+7 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\clk_deb.vhd" vhdl
+8 "D:\Semestre 2-2020\DSD\Practicas\Top Memoria RAM\top_RAM.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 6 1 7 2 3 4 5 
+
+# Dependency Lists (Users Of)
+0 -1
+1 8 
+2 8 
+3 8 
+4 8 
+5 8 
+6 8 
+7 8 
+8 -1
+
+# Design Unit to File Association
+arch work clk_div divisor 1
+module work clk_div 1
+arch work deco de 2
+module work deco 2
+arch work m_ram mem_ram 3
+module work m_ram 3
+arch work deb noreb 4
+module work deb 4
+arch work multiplexor mux 5
+module work multiplexor 5
+arch work osc00 osc0 6
+module work osc00 6
+arch work clk_deb divisor 7
+module work clk_deb 7
+arch work top tram 8
+module work top 8
+
+
+# Configuration files used

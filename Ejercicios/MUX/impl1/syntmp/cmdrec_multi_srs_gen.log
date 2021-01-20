@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  multiplexor  -multisrs  "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synwork\mux_01_impl1_comp.srs"  -osyn  "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synwork\mux_01_impl1_mult.srs"  -log  "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synlog\mux_01_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top multiplexor -multisrs "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synwork\mux_01_impl1_comp.srs" -osyn "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synwork\mux_01_impl1_mult.srs" -log "D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synlog\mux_01_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\mux_01_impl1_comp.srs|io:i|time:1601934489|size:1614|exec:0|csum:718731EAA399A5F8CCF3580AEE9F86DD
+file:..\synwork\mux_01_impl1_mult.srs|io:o|time:1601934491|size:1296|exec:0|csum:
+file:..\synlog\mux_01_impl1_multi_srs_gen.srr|io:o|time:1601934491|size:1134|exec:0|csum:
+file:C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

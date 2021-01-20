@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/10/2020 18:13:23
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Barrel Shifter Izq Der; Project name: Barrel_Shifter_Izq_Der
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Barrel Shifter Izq Der/Barrel_Shifter_Izq_Der.ldf"
+prj_run PAR -impl impl1
+#Stop recording: 10/10/2020 23:28:50

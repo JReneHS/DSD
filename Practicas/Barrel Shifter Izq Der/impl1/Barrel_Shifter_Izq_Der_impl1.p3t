@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Barrel_Shifter_Izq_Der_impl1.log"
+-o "Barrel_Shifter_Izq_Der_impl1.csv"
+-pr "Barrel_Shifter_Izq_Der_impl1.prf"

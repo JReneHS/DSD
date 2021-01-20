@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/21/2020 22:09:28
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Contador Sincrono; Project name: contador_sincrono
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Contador Sincrono/contador_sincrono.ldf"
+prj_project close
+#Stop recording: 10/21/2020 22:10:53

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Memoria_RAM_impl1.log"
+-o "Memoria_RAM_impl1.csv"
+-pr "Memoria_RAM_impl1.prf"

@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/cerradura_binaria
+Eclk_div
+Z1 w1611083157
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z6 8D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd
+Z7 FD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd
+l0
+L7 1
+VcWBHP<^;h<D]OzUfz??j@1
+!s100 5z5i94=>kNJa]Xd8D_7070
+Z8 OT;C;2020.3;71
+32
+Z9 !s110 1611114183
+!i10b 1
+Z10 !s108 1611114182.000000
+Z11 !s90 -reportprogress|300|-work|work|D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd|
+Z12 !s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/clk_div.vhd|
+!i113 1
+Z13 o-work work -O0
+Z14 tExplicit 1 CvgOpt 0
+Adivisor
+R2
+R3
+R4
+R5
+DEx4 work 7 clk_div 0 22 cWBHP<^;h<D]OzUfz??j@1
+!i122 0
+l16
+L14 12
+VnAk0:WfjUSS43W5?WnDjJ1
+!s100 iGS6cnBAI;`08lVTR`^Oh1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edeb
+Z15 w1611083390
+R4
+R5
+!i122 3
+R0
+Z16 8D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd
+Z17 FD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd
+l0
+L4 1
+Vof_[7YTFo`7Sj0fR?9WiC1
+!s100 X_QaBE^j[L=ODkiYIAEBk1
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1611114183.000000
+Z19 !s90 -reportprogress|300|-work|work|D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd|
+Z20 !s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/eliminador_rebotes_pulso.vhd|
+!i113 1
+R13
+R14
+Anoreb
+R4
+R5
+DEx4 work 3 deb 0 22 of_[7YTFo`7Sj0fR?9WiC1
+!i122 3
+l13
+L11 17
+V?PLjnnGj?G=doRhLdmLN:2
+!s100 CgV0:Ga;_L@EmR]6fnV]<3
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Edet_sec
+Z21 w1611113891
+R4
+R5
+!i122 4
+R0
+Z22 8D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd
+Z23 FD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd
+l0
+L4 1
+VPOoiY1XR:TBYW8hN5GkRe1
+!s100 giA6kIKaMYLOlXmN:AiNm3
+R8
+32
+Z24 !s110 1611114184
+!i10b 1
+R18
+Z25 !s90 -reportprogress|300|-work|work|D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd|
+!s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd|
+!i113 1
+R13
+R14
+Atop
+R4
+R5
+DEx4 work 7 det_sec 0 22 POoiY1XR:TBYW8hN5GkRe1
+!i122 4
+l53
+L13 48
+V[Z]Lk:]hQL6<QUY7WL5A:0
+!s100 ZWIBJK?_]X@ib^`UkKMVo2
+R8
+32
+R24
+!i10b 1
+R18
+R25
+Z26 !s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/top_det_sec.vhd|
+!i113 1
+R13
+R14
+Em_det_sec_fun
+Z27 w1611111819
+R4
+R5
+!i122 2
+R0
+Z28 8D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd
+Z29 FD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd
+l0
+L4 1
+Ve1K97e=;7k4nz4i9?7NM33
+!s100 Pc9gYa_E6nTA<obT26K8=2
+R8
+32
+R9
+!i10b 1
+R18
+Z30 !s90 -reportprogress|300|-work|work|D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd|
+Z31 !s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/detector_secuencia.vhd|
+!i113 1
+R13
+R14
+Amoore
+R4
+R5
+DEx4 work 13 m_det_sec_fun 0 22 e1K97e=;7k4nz4i9?7NM33
+!i122 2
+l16
+L13 87
+VF5GEYM^I_fG8S6neao`451
+!s100 l;T31OLNgg5Gej?Dco7FG0
+R8
+32
+R9
+!i10b 1
+R18
+R30
+R31
+!i113 1
+R13
+R14
+Eosc
+Z32 w1611082939
+R4
+R5
+!i122 1
+R0
+Z33 8D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd
+Z34 FD:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd
+l0
+L7 1
+V74GH^ZUk89G^nof<klc;Q3
+!s100 LX:N`MFb@QZgN:1`5]zGg1
+R8
+32
+R9
+!i10b 1
+R18
+Z35 !s90 -reportprogress|300|-work|work|D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd|
+Z36 !s107 D:/Semestre 2-2020/DSD/Practicas/Top Cerradura Binaria/oscilador.vhd|
+!i113 1
+R13
+R14
+Aosc_match
+R4
+R5
+DEx4 work 3 osc 0 22 74GH^ZUk89G^nof<klc;Q3
+!i122 1
+l24
+L13 15
+V]0OmYm[VL:Y]H>m6=Bg][3
+!s100 18f@e2UEX[>dHGdfQ:M3U2
+R8
+32
+R9
+!i10b 1
+R18
+R35
+R36
+!i113 1
+R13
+R14

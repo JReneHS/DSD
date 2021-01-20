@@ -1,0 +1,6 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: clk_div Architecture: divisor, 0h:00m:00s,     72 MB
+work, Entity: reg Architecture: registro, 0h:00m:00s,     72 MB
+work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     72 MB
+work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     72 MB
+work, Entity: reg_fin Architecture: reg_top, 0h:00m:00s,     72 MB

@@ -1,0 +1,22 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 6 clock pin(s) of sequential element(s)
+0 instances converted, 6 sequential instances remain driven by gated/generated clocks
+
+======================================================= Gated/Generated Clocks ========================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                    
+---------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       clk_r.OUT           and                    5                      O_1[3]              Clock source is invalid for GCC
+@KP:ckid0_2       clk_w_1.OUT         and                    1                      dato[3:0]           Clock source is invalid for GCC
+=======================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

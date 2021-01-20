@@ -1,0 +1,5 @@
+i<>.\..\clock_div_28.vhd
+i<>.\..\..\Oscilador\oscilador_ejemplo.vhd
+i<>.\..\bin_bcd.vhd
+i<>.\..\mux11_3.vhd
+i<>.\..\dec_7_seg.vhd

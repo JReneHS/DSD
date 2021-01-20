@@ -1,0 +1,13 @@
+[COMPILESTATUS|.\..\cont_sinc_fun.vhd]
+FileTimeLow=30844916
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\cont_sinc_fun.adf|]
+Path=/cont
+
+[Gui config]
+RunFor=100 ns
+

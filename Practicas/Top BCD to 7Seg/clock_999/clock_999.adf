@@ -1,0 +1,53 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+clock_999=.\clock_999\clock_999.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+clock_999=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\clock_div_28.vhd=-1
+/..\..\..\Oscilador\oscilador_ejemplo.vhd=-1
+/..\..\bin_bcd.vhd=-1
+/..\..\mux11_3.vhd=-1
+/..\..\dec_7_seg.vhd=-1
+[Files.Data]
+.\..\clock_div_28.vhd=VHDL Source Code
+.\..\..\Oscilador\oscilador_ejemplo.vhd=VHDL Source Code
+.\..\bin_bcd.vhd=VHDL Source Code
+.\..\mux11_3.vhd=VHDL Source Code
+.\..\dec_7_seg.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=clk_div|divisor|0 
+ShowHide=ShowTopLevel
+Selected=

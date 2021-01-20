@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\barrel_shifter.vhd":3:7:3:12|Synthesizing work.barrel.shifter.
+Post processing for work.barrel.shifter
+Running optimization stage 1 on barrel .......
+Running optimization stage 2 on barrel .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\Barrel Shifter\impl1\synwork\layer0.rt.csv
+

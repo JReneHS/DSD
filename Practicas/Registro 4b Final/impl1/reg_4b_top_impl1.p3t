@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "reg_4b_top_impl1.log"
+-o "reg_4b_top_impl1.csv"
+-pr "reg_4b_top_impl1.prf"

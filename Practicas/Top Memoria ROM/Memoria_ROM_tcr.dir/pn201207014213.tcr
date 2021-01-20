@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/7/2020 01:41:46
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM; Project name: Memoria_ROM
+prj_project open "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/Memoria_ROM.ldf"
+prj_project close
+#Stop recording: 12/7/2020 01:42:13

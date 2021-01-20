@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/7/2020 17:58:15
+#Project Location: D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor; Project name: clk_div
+prj_project open "D:/Semestre 2-2020/DSD/Ejercicios/Reloj Divisor/clk_div.ldf"
+prj_project save
+prj_project close
+#Stop recording: 10/7/2020 18:24:48

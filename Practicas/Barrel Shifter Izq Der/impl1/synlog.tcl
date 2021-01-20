@@ -1,0 +1,1 @@
+run_tcl -fg Barrel_Shifter_Izq_Der_impl1_synplify.tcl

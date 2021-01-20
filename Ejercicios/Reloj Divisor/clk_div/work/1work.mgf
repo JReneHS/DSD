@@ -1,0 +1,29 @@
+V 000048 55 964           1602107825008 divisor
+(_unit VHDL(clk_div 0 7(divisor 0 14))
+	(_version vde)
+	(_time 1602107825009 2020.10.07 16:57:05)
+	(_source(\./../../clk_div.vhd\))
+	(_parameters dbg tan)
+	(_code 56065155030150430158420c0e5150505550055004)
+	(_coverage d)
+	(_ent
+		(_time 1602107824988)
+	)
+	(_object
+		(_port(_int clk -1 0 9(_ent(_in)(_event))))
+		(_port(_int clr -1 0 9(_ent(_in))))
+		(_port(_int q18 -1 0 10(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{18~downto~0}~13 0 15(_array -1((_dto i 18 i 0)))))
+		(_sig(_int Qaux 0 0 15(_arch(_uni))))
+		(_prcs
+			(line__17(_arch 0 0 17(_prcs(_simple)(_trgt(3))(_sens(0)(1))(_read(3)))))
+			(line__24(_arch 1 0 24(_assignment(_alias((q18)(Qaux(18))))(_simpleassign BUF)(_trgt(2))(_sens(3(18))))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED)))
+	(_static
+		(33686018 33686018 33686018 33686018 131586)
+	)
+	(_model . divisor 2 -1)
+)

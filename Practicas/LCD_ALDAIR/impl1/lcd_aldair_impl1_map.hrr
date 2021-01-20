@@ -1,0 +1,35 @@
+---------------------------------------------------
+Report for cell lcd_final
+   Instance path: lcd_final
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.00        100.0
+                                  LUT4	      23.00        100.0
+                                 IOBUF	         11        100.0
+                                PFUREG	         24        100.0
+                                RIPPLE	         13        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                             memoria_1	          1        59.4
+                               clk_div	          1        40.6
+---------------------------------------------------
+Report for cell memoria_1
+   Instance path: lcd_final/cto3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        59.4
+                                  LUT4	      23.00        100.0
+---------------------------------------------------
+Report for cell clk_div
+   Instance path: lcd_final/cto2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00        40.6
+                                PFUREG	         24        100.0
+                                RIPPLE	         13        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: lcd_final/cto1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

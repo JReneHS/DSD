@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:28:10:28:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:6:30:7|Referenced variable cs is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Referenced variable cs is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Pruning unused register O_cl_3(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register O_cl_3(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Pruning unused register O_cl_3(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register O_cl_3(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Pruning unused register O_cl_3(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register O_cl_3(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Pruning unused register O_cl_3(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register O_cl_3(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>D:\Semestre 2-2020\DSD\Ejercicios\RAM Estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Sharing sequential element O_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\semestre 2-2020\dsd\ejercicios\ram estatica 64x4\ram_64x4.vhd&quot;:16:8:16:11|Found inferred clock m_ram|clk_w_1_inferred_clock which controls 4 sequential elements including dato[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\ejercicios\ram estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Found inferred clock m_ram|clk_w_1_inferred_clock which controls 4 sequential elements including dato[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\semestre 2-2020\dsd\ejercicios\ram estatica 64x4\ram_64x4.vhd&quot;:30:3:30:4|Found inferred clock m_ram|clk_r_inferred_clock which controls 5 sequential elements including O_1[3]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\semestre 2-2020\dsd\ejercicios\ram estatica 64x4\ram_64x4.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Found inferred clock m_ram|clk_r_inferred_clock which controls 5 sequential elements including O_1[3]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock m_ram|clk_w_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_w_1.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock m_ram|clk_w_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_w_1.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock m_ram|clk_r_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_r.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock m_ram|clk_r_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_r.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

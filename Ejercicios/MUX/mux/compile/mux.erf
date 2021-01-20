@@ -1,0 +1,4 @@
+MESSAGE "File: D:\Semestre 2-2020\DSD\Ejercicios\MUX\mux.vhd" 
+MESSAGE "Compile Entity "multiplexor"" 
+MESSAGE "Compile Architecture "mux" of Entity "multiplexor"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

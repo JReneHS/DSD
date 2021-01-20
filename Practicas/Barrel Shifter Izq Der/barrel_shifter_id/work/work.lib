@@ -1,0 +1,24 @@
+timestamp=1602197370218
+
+[~A]
+ModifyID=1
+Version=74
+
+[barrel_izq_der]
+A/shifter=21|./../../barrel_shifter_izq_der.vhd|12|1*0
+BinI32/shifter=3*0
+I=0*657
+I/shifter=0*2030
+M=11|0|vde|1602197370157|./../../barrel_shifter_izq_der.vhd|0*225*0xd19a1dbffbbbfe7da11e8c97f3c6a28e1288ea8d|0*555*0x23b75c12e3e89f2ef000564498faa8c2
+M/shifter=21|0|vde|1602197370160|./../../barrel_shifter_izq_der.vhd|0*865*0x7d25274a4e6a31af04ffe79441621883ddcee2b3|0*1917*0x9065d32a2e40e13794b29a2731812845
+R=./../../barrel_shifter_izq_der.vhd|3
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|af4238a9c1310730b44aa7219892fe2539afa8ac24edb3b070ef1372c68d223877c0ebc7e692f3950ac1b825c9b9ee12
+Version/shifter=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|9d4e5ccf296c921a357371d76232c88026527262ddaa47cb266f3a3c4d9b973a53d3d962d2b2282e0defa400404c1fcb
+
+[~MFT]
+0=7|0work.mgf|2030|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+barrel_izq_der=11|0*0|

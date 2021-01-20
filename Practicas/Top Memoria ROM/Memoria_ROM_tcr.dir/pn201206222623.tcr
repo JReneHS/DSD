@@ -1,0 +1,30 @@
+#Start recording tcl command: 12/6/2020 18:14:52
+#Project Location: D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM; Project name: Memoria_ROM
+prj_project new -name "Memoria_ROM" -impl "impl1" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/dec_3_8.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/clock_div.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Ejercicios/Oscilador/oscilador_ejemplo.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/ROM.vhd"
+prj_src add "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/top_rom.vhd"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/impl1/impl1.xcf"
+prj_src add -exclude "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/impl1/impl1.xcf"
+prj_src enable "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/impl1/impl1.xcf"
+pgr_program run
+pgr_project close
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/impl1/impl1.xcf"
+pgr_project close
+pgr_project open "D:/Semestre 2-2020/DSD/Practicas/Top Memoria ROM/impl1/impl1.xcf"
+pgr_program set -cable 
+pgr_program set -cable 
+pgr_program run
+pgr_project close
+#Stop recording: 12/6/2020 22:26:23

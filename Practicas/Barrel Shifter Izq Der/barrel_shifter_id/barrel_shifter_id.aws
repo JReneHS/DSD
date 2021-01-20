@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+barrel_shifter_id=barrel_shifter_id.adf
+[Settings]
+Active=barrel_shifter_id
+[Expand]
+barrel_shifter_id=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

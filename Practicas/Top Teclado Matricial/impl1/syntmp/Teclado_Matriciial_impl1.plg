@@ -1,0 +1,31 @@
+@P:  Worst Slack : 8.099
+@P:  clk_div|Qaux_derived_clock[13] - Estimated Frequency : 1740.0 MHz
+@P:  clk_div|Qaux_derived_clock[13] - Requested Frequency : 2.1 MHz
+@P:  clk_div|Qaux_derived_clock[13] - Estimated Period : 0.575
+@P:  clk_div|Qaux_derived_clock[13] - Requested Period : 480.769
+@P:  clk_div|Qaux_derived_clock[13] - Slack : 960.389
+@P:  deb|Q_inferred_clock - Estimated Frequency : NA
+@P:  deb|Q_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  deb|Q_inferred_clock - Estimated Period : NA
+@P:  deb|Q_inferred_clock - Requested Period : 10.000
+@P:  deb|Q_inferred_clock - Slack : NA
+@P:  osc00|osc_int0_inferred_clock - Estimated Frequency : 198.9 MHz
+@P:  osc00|osc_int0_inferred_clock - Requested Frequency : 2.1 MHz
+@P:  osc00|osc_int0_inferred_clock - Estimated Period : 5.028
+@P:  osc00|osc_int0_inferred_clock - Requested Period : 480.769
+@P:  osc00|osc_int0_inferred_clock - Slack : 475.741
+@P:  top|clkAnd_i_lo_inferred_clock - Estimated Frequency : 525.9 MHz
+@P:  top|clkAnd_i_lo_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  top|clkAnd_i_lo_inferred_clock - Estimated Period : 1.901
+@P:  top|clkAnd_i_lo_inferred_clock - Requested Period : 10.000
+@P:  top|clkAnd_i_lo_inferred_clock - Slack : 8.099
+@P:  Total Area : 20.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

@@ -1,0 +1,15 @@
+if {![file exists "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec/det_sec.mpf"]} { 
+	project new "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec" det_sec
+	project addfile "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec_fun.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec_fun.vhd"
+} else {
+	project open "D:/Semestre 2-2020/DSD/Ejercicios/Detector de secuencia Funcional/det_sec/det_sec"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  m_det_sec_fun
+view wave
+add wave /*
+run 1000ns

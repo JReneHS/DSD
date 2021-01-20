@@ -1,0 +1,111 @@
+----------------------------------------------------------------------
+Report for cell top.tec
+
+Register bits: 25 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        8       100.0
+                            FD1S3DX       25       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                                INV        2       100.0
+                                 OB       11       100.0
+                           ORCALUT4       18       100.0
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        5       100.0
+                                VLO        7       100.0
+SUB MODULES 
+                            clk_div        1       100.0
+                               cont        1       100.0
+                                deb        1       100.0
+                            decoder        1       100.0
+                              multi        1       100.0
+                              osc00        1       100.0
+                                reg        1       100.0
+                                seg        1       100.0
+                            
+                         TOTAL            93           
+----------------------------------------------------------------------
+Report for cell cont.netlist
+     Instance path:  cto8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        4        16.0
+                                INV        1        50.0
+                           ORCALUT4        3        16.7
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell seg.netlist
+     Instance path:  cto7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        7        38.9
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell reg.netlist
+     Instance path:  cto6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        4        16.0
+                                INV        1        50.0
+                                VHI        1        20.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell clk_div.netlist
+     Instance path:  cto5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        8       100.0
+                            FD1S3DX       14        56.0
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  cto4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        14.3
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell deb.netlist
+     Instance path:  cto3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        3        12.0
+                           ORCALUT4        1         5.6
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell decoder.netlist
+     Instance path:  cto2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        4        22.2
+                                VLO        1        14.3
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell multi.netlist
+     Instance path:  cto1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2        11.1
+                              PFUMX        1       100.0
+                                VLO        1        14.3
+                            
+                         TOTAL             4           

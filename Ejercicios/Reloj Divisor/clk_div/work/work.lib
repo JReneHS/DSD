@@ -1,0 +1,24 @@
+timestamp=1602107825118
+
+[~A]
+ModifyID=1
+Version=74
+
+[clk_div]
+A/divisor=21|./../../clk_div.vhd|14|1*0
+BinI32/divisor=3*0
+I=0*538
+I/divisor=0*1214
+M=11|0|vde|1602107824987|./../../clk_div.vhd|0*183*0x7793c78bcd316410295ecc00486ae647a1161b62|0*458*0x23b75c12e3e89f2ef000564498faa8c2
+M/divisor=21|0|vde|1602107825007|./../../clk_div.vhd|0*820*0xcb0f87aa70db62139162a89c2f9cfc1823a3be08|0*1123*0x9065d32a2e40e13794b29a2731812845
+R=./../../clk_div.vhd|7
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|a6c4b70a37c8e6c4ecdb3eafe34c76db26527262ddaa47cb266f3a3c4d9b973a310a5c3a1e4aca0d86422b2e11569d98
+Version/divisor=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|696081cff0d8e87a75e98c8da71875dd26527262ddaa47cb266f3a3c4d9b973a310a5c3a1e4aca0d86422b2e11569d98
+
+[~MFT]
+0=7|0work.mgf|1214|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+clk_div=11|0*0|

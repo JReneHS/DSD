@@ -1,0 +1,24 @@
+timestamp=1603926082101
+
+[~A]
+ModifyID=1
+Version=74
+
+[conv]
+A/bin_bcd=21|./../../bin_BCD.vhd|12|1*0
+BinI32/bin_bcd=3*0
+I=0*520
+I/bin_bcd=0*1284
+M=11|0|vde|1603926081799|./../../bin_BCD.vhd|0*187*0xd711ed4c0dda848fc6ba3a9b4f8828dcf010eebd|0*443*0x23b75c12e3e89f2ef000564498faa8c2
+M/bin_bcd=21|0|vde|1603926081819|./../../bin_BCD.vhd|0*799*0xbcf84f5ce0a059f7c92027159905863abe611eaf|0*1196*0x9065d32a2e40e13794b29a2731812845
+R=./../../bin_BCD.vhd|5
+Version=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|61a542c9876c14cfef9b3ba0170060563b82d60060dbbb30f5e2896f00f5c868
+Version/bin_bcd=10.5.216.6767 (Windows)|00000004789cd34d494a0700030f015b|26336760c6a261b0037f12bdd0654bb226527262ddaa47cb266f3a3c4d9b973a393148e57cc542901f945b209009ead5
+
+[~MFT]
+0=7|0work.mgf|1284|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+conv=11|0*0|

@@ -1,0 +1,1 @@
+run_tcl -fg contador_sincrono_impl1_synplify.tcl

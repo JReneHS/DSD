@@ -1,0 +1,1 @@
+@W: MT529 :"d:\semestre 2-2020\dsd\practicas\top memoria rom\clock_div.vhd":23:4:23:5|Found inferred clock osc00|osc_int0_inferred_clock which controls 21 sequential elements including cto2.Qaux[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

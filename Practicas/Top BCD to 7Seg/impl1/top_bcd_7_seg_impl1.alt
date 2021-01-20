@@ -1,0 +1,20 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Nov 13 14:07:41 2020 *
+NOTE DESIGN NAME: top_bcd *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS decOut[0] : 138 : out *
+NOTE PINS clr : 109 : in *
+NOTE PINS segOut[6] : 117 : out *
+NOTE PINS segOut[5] : 115 : out *
+NOTE PINS segOut[4] : 114 : out *
+NOTE PINS segOut[3] : 113 : out *
+NOTE PINS segOut[2] : 112 : out *
+NOTE PINS segOut[1] : 111 : out *
+NOTE PINS segOut[0] : 110 : out *
+NOTE PINS decOut[3] : 141 : out *
+NOTE PINS decOut[2] : 140 : out *
+NOTE PINS decOut[1] : 139 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

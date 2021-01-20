@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Semestre 2-2020\DSD\Ejercicios\MUX\mux.vhd":5:8:5:18|Synthesizing work.multiplexor.mux.
+Post processing for work.multiplexor.mux
+Running optimization stage 1 on multiplexor .......
+Running optimization stage 2 on multiplexor .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Semestre 2-2020\DSD\Ejercicios\MUX\impl1\synwork\layer0.rt.csv
+

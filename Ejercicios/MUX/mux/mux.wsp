@@ -1,0 +1,13 @@
+[COMPILESTATUS|.\..\mux.vhd]
+FileTimeLow=30841672
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\mux.adf|]
+Path=/multiplexor
+
+[Gui config]
+RunFor=100 ns
+
